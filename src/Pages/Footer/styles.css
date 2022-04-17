@@ -1,0 +1,13 @@
+.footer_container_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_flex_item img {
+  height: 7.3rem;
+  width: 67rem;
+  object-fit: none;
+  object-position: 100% 100%;
+}
