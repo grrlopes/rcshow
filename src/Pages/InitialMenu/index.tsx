@@ -1,0 +1,84 @@
+import "./styles.css";
+
+import Speakers from "../../Assets/icons/white/speakers.svg";
+import Schedules from "../../Assets/icons/white/schedule.svg";
+import Exhibitors from "../../Assets/icons/white/exhibitors.svg";
+import Features from "../../Assets/icons/white/features.svg";
+import Competitors from "../../Assets/icons/white/competitors.svg";
+import Events from "../../Assets/icons/white/events.svg";
+
+interface Props {
+  className: string;
+}
+
+
+const InitialMenu = (props: Props) => {
+  return (
+    <div className={`${props.className} initialmenu_container_flex`}>
+
+      <div className="initialmenu_flex initialmenu_speakers_flex">
+        <div className="initialmenu">
+          <div className="icon">
+            <img src={Speakers} />
+          </div>
+          <div>
+            <h1>SPEAKERS</h1>
+          </div>
+        </div>
+      </div>
+      <div className="initialmenu_flex initialmenu_schedule_flex">
+        <div className="initialmenu">
+          <div className="icon">
+            <img src={Schedules}/>
+          </div>
+          <div>
+            <h1>schedule</h1>
+          </div>
+        </div>
+      </div>
+      <div className="initialmenu_flex initialmenu_exhibitors_flex">
+        <div className="initialmenu">
+          <div className="icon">
+            <img src={Exhibitors} />
+          </div>
+          <div>
+            <h1>exhibitors</h1>
+          </div>
+        </div>
+      </div>
+      <div className="initialmenu_flex initialmenu_features_flex">
+        <div className="initialmenu">
+          <div className="icon">
+            <img src={Features} />
+          </div>
+          <div>
+            <h1>features</h1>
+          </div>
+        </div>
+      </div>
+      <div className="initialmenu_flex initialmenu_competitions_flex">
+        <div className="initialmenu">
+          <div className="icon">
+            <img src={Competitors} />
+          </div>
+          <div>
+            <h1>competitions</h1>
+          </div>
+        </div>
+      </div>
+      <div className="initialmenu_flex initialmenu_events_flex">
+        <div className="initialmenu">
+          <div className="icon">
+            <img src={Events} />
+          </div>
+          <div>
+            <h1>events</h1>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  )
+}
+
+export { InitialMenu }
