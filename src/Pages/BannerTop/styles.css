@@ -1,0 +1,22 @@
+.banner_container_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.banner_btn_back {
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+  top: .3em;
+  left: 46em;
+  color: white;
+}
+
+.banner_flex_item img {
+  height: 30em;
+  width: 83em;
+  object-fit: none;
+  object-position: 0% 0%;
+}
