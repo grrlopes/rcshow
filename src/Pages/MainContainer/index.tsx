@@ -1,4 +1,5 @@
 import { BannerTop } from '../BannerTop'
+import { Footer } from '../Footer'
 import { InitialMenu } from '../InitialMenu'
 import { Slide } from '../Slider'
 import { VideoClip } from '../VideoClip'
@@ -11,6 +12,7 @@ const MainContainer = () => {
       <VideoClip className="grid" />
       <InitialMenu className="grid" />
       <Slide className="grid" />
+      <Footer className="grid" />
     </div>
   )
 }

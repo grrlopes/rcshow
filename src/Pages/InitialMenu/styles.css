@@ -2,12 +2,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2.5em;
+  gap: 1.5rem;
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin-left: 31em;
-  margin-right: 31em;
+  margin-left: 26rem;
+  margin-right: 31rem;
+  background-color: lightsalmon;
 }
 
 .initialmenu {
@@ -19,35 +20,35 @@
 }
 
 .initialmenu img {
-  margin: 10px;
+  margin: 0.5rem;
 }
 
 .initialmenu h1 {
-  font-size: 2em;
+  font-size: 1.5rem;
   color: white;
 }
 
 .initialmenu_flex:nth-of-type(1) {
-  flex: 25em;
+  flex: 25rem;
 }
 
 .initialmenu_flex:nth-of-type(2) {
-  flex: 25em;
+  flex: 25rem;
 }
 
 .initialmenu_flex:nth-of-type(3) {
-  flex: 25em;
+  flex: 25rem;
 }
 
 .initialmenu_flex:nth-of-type(4) {
-  flex: 25em;
+  flex: 25rem;
 }
 
 .initialmenu_flex:nth-of-type(5) {
-  flex: 25em;
+  flex: 25rem;
 }
 
 .initialmenu_flex:nth-of-type(6) {
-  flex: 25em;
+  flex: 25rem;
 }
 

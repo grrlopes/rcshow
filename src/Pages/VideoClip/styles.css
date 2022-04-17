@@ -1,14 +1,13 @@
 .videoclip_container_flex {
   display: flex;
-  justify-content: center; 
-  background-color: hsl(0, 24%, 50%);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .videoclip_container_flex video {
-  height: 30em;
-  width: 83em;
-  object-fit: none;
-  object-position: 0% 0%;
+  height: 20rem;
+  width: 67rem;
 }
 
 .video_clip h1 {
