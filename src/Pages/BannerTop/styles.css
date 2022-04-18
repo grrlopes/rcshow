@@ -20,3 +20,17 @@
   object-fit: none;
   object-position: 0% 0%;
 }
+
+
+@media(max-width:450px) {
+
+ .banner_btn_back {
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    top: .3em;
+    left: 59rem;
+    color: white;
+  }
+
+}
