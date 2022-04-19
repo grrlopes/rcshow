@@ -1,0 +1,103 @@
+.secondmenu_container_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 26rem;
+  margin-right: 31rem;
+  background-color: lightsalmon;
+}
+
+.secondmenu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-image: url('../../Assets/background/button_bg.jpg');
+  border-radius: 16px;
+}
+
+.secondmenu img {
+  margin: 0.5rem;
+}
+
+.secondmenu h1 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.secondmenu_flex:nth-of-type(1) {
+  flex: 25rem;
+}
+
+.secondmenu_flex:nth-of-type(2) {
+  flex: 25rem;
+}
+
+.secondmenu_flex:nth-of-type(3) {
+  flex: 25rem;
+}
+
+.secondmenu_flex:nth-of-type(4) {
+  flex: 25rem;
+}
+
+.secondmenu_flex:nth-of-type(5) {
+  flex: 25rem;
+}
+
+.secondmenu_flex:nth-of-type(6) {
+  flex: 25rem;
+}
+
+@media(max-width:450px) {
+
+  .secondmenu_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background-color: lightsalmon;
+  }
+
+  .secondmenu_flex:nth-of-type(1) {
+    flex: 17rem;
+  }
+
+  .secondmenu_flex:nth-of-type(2) {
+    flex: 17rem;
+  }
+
+  .secondmenu_flex:nth-of-type(3) {
+    flex: 17rem;
+  }
+
+  .secondmenu_flex:nth-of-type(4) {
+    flex: 17rem;
+  }
+
+  .secondmenu_flex:nth-of-type(5) {
+    flex: 17rem;
+  }
+
+  .secondmenu_flex:nth-of-type(6) {
+    flex: 17rem;
+  }
+
+  .secondmenu img {
+    margin: 0;
+  }
+
+  .secondmenu h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+
+}
