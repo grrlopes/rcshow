@@ -6,18 +6,25 @@ import Exhibitors from "../../Assets/icons/white/exhibitors.svg";
 import Features from "../../Assets/icons/white/features.svg";
 import Competitors from "../../Assets/icons/white/competitors.svg";
 import Events from "../../Assets/icons/white/events.svg";
+import { useState } from "react";
 
 interface Props {
   className: string;
+  secondMenuActive(active: boolean): void;
 }
 
-
 const InitialMenu = (props: Props) => {
+  const [active, setActive] = useState<boolean>(false);
+
+  const menu = (): void => {
+    props.secondMenuActive(active);
+  }
+
   return (
     <div className={`${props.className} initialmenu_container_flex`}>
 
       <div className="initialmenu_flex initialmenu_speakers_flex">
-        <div className="initialmenu">
+        <div className="initialmenu" onClick={() => menu()}>
           <div className="icon">
             <img src={Speakers} />
           </div>
