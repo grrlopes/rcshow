@@ -7,6 +7,10 @@ const GlobalStyle = createGlobalStyle`
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: white;
   font-family: 'Barlow Semi Condensed', sans-serif;

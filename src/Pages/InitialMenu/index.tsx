@@ -6,19 +6,23 @@ import Exhibitors from "../../Assets/icons/white/exhibitors.svg";
 import Features from "../../Assets/icons/white/features.svg";
 import Competitors from "../../Assets/icons/white/competitors.svg";
 import Events from "../../Assets/icons/white/events.svg";
-import { useState } from "react";
+import { FC, useEffect, useState } from "react";
 
 interface Props {
   className: string;
   secondMenuActive(active: boolean): void;
 }
 
-const InitialMenu = (props: Props) => {
-  const [active, setActive] = useState<boolean>(false);
+const InitialMenu: FC<Props> = (props: Props) => {
+  const [active, setActive] = useState<boolean>(true);
 
   const menu = (): void => {
     props.secondMenuActive(active);
   }
+
+  useEffect(() => {
+    setActive(false)
+  }, [active]);
 
   return (
     <div className={`${props.className} initialmenu_container_flex`}>
@@ -36,7 +40,7 @@ const InitialMenu = (props: Props) => {
       <div className="initialmenu_flex initialmenu_schedule_flex">
         <div className="initialmenu">
           <div className="icon">
-            <img src={Schedules}/>
+            <img src={Schedules} />
           </div>
           <div>
             <h1>schedule</h1>
