@@ -25,7 +25,7 @@ const MainContainer: FC = () => {
       <BannerTop className="grid" secondMenuActive={secondMenuActive} activity={active} />
       {active && <VideoClip className="grid" />}
       {active && <InitialMenu className="grid" secondMenuActive={secondMenuActive} />}
-      {!active && <SecondMenu className="grid" secondMenuActive={secondMenuActive} />}
+      {!active && <SecondMenu className="grid" secondMenuActive={secondMenuActive} buttonRed={true} />}
       {!active && <Speakers className="grid" />}
       <Slide className="grid" />
       <Footer className="grid" />

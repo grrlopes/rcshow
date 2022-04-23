@@ -11,20 +11,21 @@ import { FC, useState } from "react";
 interface Props {
   className: string;
   secondMenuActive(active: boolean): void;
+  buttonRed: boolean;
 }
 
 const SecondMenu: FC<Props> = (props: Props) => {
   const [active, setActive] = useState<boolean>(false);
 
   const menu = (): void => {
-    props.secondMenuActive(active);
+    props.secondMenuActive(active)
   }
 
   return (
     <div className={`${props.className} secondmenu_container_flex`}>
 
       <div className="secondmenu_flex secondmenu_speakers_flex">
-        <div className="secondmenu">
+        <div className={`${props.buttonRed ? "secondmenu_red icon_beat" : "secondmenu"}`}>
           <div className="icon">
             <img src={Speakers} />
           </div>
@@ -84,7 +85,7 @@ const SecondMenu: FC<Props> = (props: Props) => {
         </div>
       </div>
 
-    </div>
+    </div >
   )
 }
 

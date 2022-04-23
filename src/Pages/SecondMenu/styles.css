@@ -8,7 +8,6 @@
   justify-content: center;
   margin-left: 26rem;
   margin-right: 31rem;
-  background-color: lightsalmon;
 }
 
 .secondmenu {
@@ -17,6 +16,7 @@
   flex-wrap: wrap;
   background-image: url('../../Assets/background/button_bg.jpg');
   border-radius: 16px;
+  padding-top: 1rem;
 }
 
 .secondmenu img {
@@ -58,13 +58,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     text-align: center;
     justify-content: center;
     margin-left: 0rem;
     margin-right: 0rem;
-    background-color: lightsalmon;
   }
 
   .secondmenu_flex:nth-of-type(1) {
@@ -98,6 +97,30 @@
   .secondmenu h1 {
     font-size: 2.5rem;
     color: white;
+  }
+
+  .secondmenu_red {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 16px;
+    background-color: red;
+    padding-top: 1rem;
+  }
+
+  .secondmenu_red h1 {
+    font-size: 2.5rem;
+    color: white;
+
+  }
+
+  @keyframes beat {
+    to { transform: scale(1.2); }
+  }
+
+  .icon_beat img {
+    animation: beat .45s infinite alternate;
+    transform-origin: center;
   }
 
 }
