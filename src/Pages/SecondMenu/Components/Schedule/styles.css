@@ -1,0 +1,81 @@
+.schedulemenucontents_container_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  gap: 2rem;
+}
+
+.schedulemenucontents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+@media(max-width:450px) {
+
+  .schedulemenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 2rem;
+  }
+
+  .topschedule_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topschedulecontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topschedulecontents_header h1 {
+    font-size: 2.2rem;
+  }
+
+  .topschedulecontents_header h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: darkgray;
+  }
+
+  .topschedulecontents_date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .topschedule_date_red {
+    border-bottom: solid red 0.5rem;
+  }
+
+  .topschedulecontents_date h1 {
+    font-size: 2.2rem;
+  }
+
+  .holdschedulecontent {
+    height: 160vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+
+}
+
+
