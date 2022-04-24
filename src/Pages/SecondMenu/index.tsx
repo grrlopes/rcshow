@@ -6,36 +6,41 @@ import Exhibitors from "../../Assets/icons/white/exhibitors.svg";
 import Features from "../../Assets/icons/white/features.svg";
 import Competitors from "../../Assets/icons/white/competitors.svg";
 import Events from "../../Assets/icons/white/events.svg";
-import { FC, useState } from "react";
+import { FC, useEffect, useState } from "react";
 
 interface Props {
   className: string;
-  secondMenuActive(active: boolean): void;
-  buttonRed: boolean;
+  activedMenu(active: boolean, menuChosen: string): void;
+  menuChosen: string;
 }
 
 const SecondMenu: FC<Props> = (props: Props) => {
   const [active, setActive] = useState<boolean>(false);
+  const [mChosen, setChosen] = useState<string>(props.menuChosen);
 
-  const menu = (): void => {
-    props.secondMenuActive(active)
+  const menu = (chosen: string): void => {
+    setChosen(chosen)
+    props.activedMenu(active, chosen)
   }
+
+  useEffect(() => {
+  }, [mChosen])
 
   return (
     <div className={`${props.className} secondmenu_container_flex`}>
 
       <div className="secondmenu_flex secondmenu_speakers_flex">
-        <div className={`${props.buttonRed ? "secondmenu_red icon_beat" : "secondmenu"}`}>
+        <div className={`${props.menuChosen === "speakers" ? "secondmenu_red icon_beat" : "secondmenu"}`} onClick={() => menu("speakers")}>
           <div className="icon">
             <img src={Speakers} />
           </div>
           <div>
-            <h1 onClick={() => menu()}>speakers</h1>
+            <h1>speakers</h1>
           </div>
         </div>
       </div>
       <div className="secondmenu_flex secondmenu_schedule_flex">
-        <div className="secondmenu">
+        <div className={`${props.menuChosen === "schedule" ? "secondmenu_red icon_beat" : "secondmenu"}`} onClick={() => menu("schedule")}>
           <div className="icon">
             <img src={Schedules} />
           </div>

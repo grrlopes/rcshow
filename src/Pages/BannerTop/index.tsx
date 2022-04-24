@@ -1,10 +1,10 @@
 import "./styles.css"
 import Banner from "../../Assets/bannerTop/home_v3.png"
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 interface Props {
   className: string;
-  secondMenuActive(active: boolean): void;
+  activedMenu(active: boolean): void;
   activity: boolean;
 }
 
@@ -12,7 +12,7 @@ const BannerTop = (props: Props) => {
   const [active, setActive] = useState<boolean>(props.activity);
 
   const menu = (): void => {
-    props.secondMenuActive(active);
+    props.activedMenu(active);
   }
 
   return (

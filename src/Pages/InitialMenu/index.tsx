@@ -10,14 +10,14 @@ import { FC, useEffect, useState } from "react";
 
 interface Props {
   className: string;
-  secondMenuActive(active: boolean): void;
+  activedMenu(active: boolean, chosen: string): void;
 }
 
 const InitialMenu: FC<Props> = (props: Props) => {
   const [active, setActive] = useState<boolean>(true);
 
-  const menu = (): void => {
-    props.secondMenuActive(active);
+  const menu = (chosen: string): void => {
+    props.activedMenu(active, chosen);
   }
 
   useEffect(() => {
@@ -28,7 +28,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
     <div className={`${props.className} initialmenu_container_flex`}>
 
       <div className="initialmenu_flex initialmenu_speakers_flex">
-        <div className="initialmenu" onClick={() => menu()}>
+        <div className="initialmenu" onClick={() => menu("speakers")}>
           <div className="icon">
             <img src={Speakers} />
           </div>
@@ -38,7 +38,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
         </div>
       </div>
       <div className="initialmenu_flex initialmenu_schedule_flex">
-        <div className="initialmenu">
+        <div className="initialmenu" onClick={() => menu("schedule")}>
           <div className="icon">
             <img src={Schedules} />
           </div>
