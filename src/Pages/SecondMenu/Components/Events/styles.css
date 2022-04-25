@@ -1,0 +1,117 @@
+.eventsmenucontents_container_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  gap: 2rem;
+}
+
+.eventsmenucontents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+@media(max-width:450px) {
+
+  .eventsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    /*gap: rem;*/
+    /*background-color: black;*/
+  }
+
+  .eventsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 25rem;
+    width: 25rem;
+  }
+
+  .eventsmenucontents h1, p {
+    color: white;
+    font-size: 3rem;
+  }
+
+  #events_1,
+  #events_2,
+  #events_3,
+  #events_4 {
+    background-repeat: no-repeat;
+    background-size: auto 26rem;
+    opacity: 0.9;
+  } 
+
+  #events_1 {
+    background-image: url("../../../../Assets/events/RCLeadership_10b.jpg");
+  }
+
+  #events_2 {
+    background-image: url("../../../../Assets/events/39818312725_d56781b864_c.jpg");
+  }
+
+  #events_3 {
+    background-image: url("../../../../Assets/events/38901354390_fc65786d99_h.jpg");
+    background-size: 28rem 26rem;
+  }
+
+  #events_4 {
+    background-image: url("../../../../Assets/events/michael-discenza-199756.jpg");
+  }
+
+
+  .topevents_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topeventscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topeventscontents_header h1 {
+    font-size: 3.2rem;
+  }
+
+  .topeventscontents_header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: darkgrey;
+  }
+
+  .topevents_red {
+    border-bottom: solid red 0.5rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .hholdeventscontent {
+    height: 135vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+
+}
+
+
