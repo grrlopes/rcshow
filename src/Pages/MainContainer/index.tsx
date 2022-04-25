@@ -4,6 +4,7 @@ import { BannerTop } from '../BannerTop'
 import { Footer } from '../Footer'
 import { InitialMenu } from '../InitialMenu'
 import { SecondMenu } from '../SecondMenu'
+import { Events } from '../SecondMenu/Components/Events'
 import { Schedule } from '../SecondMenu/Components/Schedule'
 import { Speakers } from '../SecondMenu/Components/Speakers'
 import { Slide } from '../Slider'
@@ -34,6 +35,7 @@ const MainContainer: FC = () => {
       {!active && <SecondMenu className="grid" activedMenu={secondMenuActive} menuChosen={mchosen} />}
       {mchosen === "speakers" && <Speakers className="grid"/>}
       {mchosen === "schedule" && <Schedule className="grid" />}
+      {mchosen === "events" && <Events className="grid" />}
       <Slide className="grid" />
       <Footer className="grid" />
     </div >
