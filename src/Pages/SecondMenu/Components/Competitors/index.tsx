@@ -14,18 +14,14 @@ const Competitors = (props: Props) => {
 
   const pageAhead = (position: number): void => {
     setPage(page + position)
-    //setTotalPage(Math.round((page + position)) / totalPage)
   }
 
   const pageBack = (position: number): void => {
     setPage(page - position)
-    //setTotalPage(Math.round((page - position)) / totalPage)
   }
 
   useEffect(() => {
   }, [totalPage])
-
-  console.log(page)
 
   return (
     <div>
