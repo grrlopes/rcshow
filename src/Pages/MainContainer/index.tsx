@@ -4,6 +4,7 @@ import { BannerTop } from '../BannerTop'
 import { Footer } from '../Footer'
 import { InitialMenu } from '../InitialMenu'
 import { SecondMenu } from '../SecondMenu'
+import { Competitors } from '../SecondMenu/Components/Competitors'
 import { Events } from '../SecondMenu/Components/Events'
 import { Schedule } from '../SecondMenu/Components/Schedule'
 import { Speakers } from '../SecondMenu/Components/Speakers'
@@ -36,6 +37,7 @@ const MainContainer: FC = () => {
       {mchosen === "speakers" && <Speakers className="grid" />}
       {mchosen === "schedule" && <Schedule className="grid" />}
       {mchosen === "events" && <Events className="grid" />}
+      {mchosen === "competitors" && <Competitors className="grid" />}
       <Slide className="grid" />
       <Footer className="grid" />
     </div >
