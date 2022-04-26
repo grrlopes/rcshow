@@ -33,7 +33,7 @@ const MainContainer: FC = () => {
       {active && <VideoClip className="grid" />}
       {active && <InitialMenu className="grid" activedMenu={secondMenuActive} />}
       {!active && <SecondMenu className="grid" activedMenu={secondMenuActive} menuChosen={mchosen} />}
-      {mchosen === "speakers" && <Speakers className="grid"/>}
+      {mchosen === "speakers" && <Speakers className="grid" />}
       {mchosen === "schedule" && <Schedule className="grid" />}
       {mchosen === "events" && <Events className="grid" />}
       <Slide className="grid" />

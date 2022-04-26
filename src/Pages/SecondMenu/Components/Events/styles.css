@@ -46,6 +46,48 @@
     font-size: 3rem;
   }
 
+  .eventModal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .eventModal section  {
+    height: 60vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+  .eventModal img {
+    background-repeat: no-repeat;
+    height: auto;
+    width: 15rem;
+    opacity: 0.9;
+  }
+
+  .eventModal_btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .eventModal_btn button {
+    padding: 0.2rem 0.7rem;
+    border: 0.2rem solid red;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+
   #events_1,
   #events_2,
   #events_3,
