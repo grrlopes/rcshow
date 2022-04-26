@@ -70,7 +70,7 @@ const SecondMenu: FC<Props> = (props: Props) => {
         </div>
       </div>
       <div className="secondmenu_flex secondmenu_competitions_flex">
-        <div className="secondmenu">
+        <div className={`${props.menuChosen === "competitors" ? "secondmenu_red icon_beat" : "secondmenu"}`} onClick={() => menu("competitors")}>
           <div className="icon">
             <img src={Competitors} />
           </div>

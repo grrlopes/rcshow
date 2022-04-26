@@ -1,0 +1,138 @@
+.competitorsmenucontents_container_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  gap: 2rem;
+}
+
+.competitorsmenucontents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.competitorsmenu_container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.competitors_grid:nth-of-type(1) {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+
+.competitors_grid:nth-of-type(2) {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+.competitors_grid:nth-of-type(3) {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+@media(max-width:450px) {
+
+  .competitorsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .competitorsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 25rem;
+    width: 25rem;
+  }
+
+  .competitorsmenucontents h1, p {
+    color: white;
+    font-size: 3rem;
+  }
+ 
+  .competitorsright, .competitorsleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .competitorsright {
+    justify-self: flex-end;
+  }
+  .competitorsleft {
+    justify-self: flex-start;
+  }
+  .competitorsright img, .competitorsleft img {
+    height: 7rem;
+  }
+
+  #competitors_1,
+  #competitors_2,
+  #competitors_3,
+  #competitors_4 {
+    background-repeat: no-repeat;
+    background-size: auto 26rem;
+    opacity: 0.9;
+  } 
+
+  #competitors_1 {
+    background-image: url("../../../../Assets/events/garland_winner-landscape.jpg");
+  }
+
+  #competitors_2 {
+    background-image: url("../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #competitors_3 {
+    background-image: url("../../../../Assets/events/alcohol-bar-beverage-black-background-312080-landscape.jpg");
+    background-size: 28rem 26rem;
+  }
+
+  #competitors_4 {
+    background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+
+  .topcompetitors_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topcompetitorscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topcompetitorscontents_header h1 {
+    font-size: 3.2rem;
+  }
+
+  .topcompetitors_red {
+    border-bottom: solid red 0.5rem;
+    text-align: center;
+    line-break: normal;
+  }
+ 
+}
+
+
