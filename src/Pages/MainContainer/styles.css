@@ -1,7 +1,6 @@
 .container_grid {
   display: grid;
   grid-template-columns: 1fr;
-  /*margin: 10px;*/
   gap: 0px;
 }
 
@@ -41,43 +40,36 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 0px;
-  zoom: 0.64;
 }
 
 .grid:nth-of-type(1) {
   grid-column: 1 / 2;
   grid-row: 1;
-  zoom: 0.57
 }
 
 .grid:nth-of-type(2) {
   grid-column: 1 / 2;
   grid-row: 2;
-  zoom: 0.57;
 }
 
 .grid:nth-of-type(3) {
   grid-column: 1 / 2;
   grid-row: 3;
-  zoom: 0.52;
 }
 
 .grid:nth-of-type(4) {
   grid-column: 1 / 2;
   grid-row: 4;
-  zoom: 0.52;
 }
 
 .grid:nth-of-type(5) {
   grid-column: 1 / 2;
   grid-row: 5;
-  zoom: 0.57;
 }
 
 .grid:nth-of-type(6) {
   grid-column: 1 / 2;
   grid-row: 3;
-  zoom: 0.52;
 }
 
 }
