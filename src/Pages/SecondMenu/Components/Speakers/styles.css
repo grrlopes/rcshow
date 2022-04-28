@@ -41,7 +41,7 @@
 
 
 
-@media(max-width:450px) {
+@media(width:4500px) {
 
   .secondmenucontents_container_flex {
     display: flex;
@@ -100,3 +100,72 @@
 }
 
 
+
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
+
+  .speakerscontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speakerscontents h1 {
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+  }
+
+  .speakerscontents p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(46, 46, 46);
+  }
+
+  .speakerscontents img {
+    margin-top: 0.3rem;
+    margin-left: 3.5rem;
+    border-radius: 100%;
+    width: 5rem;
+  }
+
+  .topheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .topheader div {
+    border-bottom: solid red 0.3rem;
+  }
+
+  .topheader h1 {
+    font-size: 1.2rem;
+  }
+
+  .holdcontent {
+    height: 60vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+
+
+}
+
+/*iPhone 12, 12 pro*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+}

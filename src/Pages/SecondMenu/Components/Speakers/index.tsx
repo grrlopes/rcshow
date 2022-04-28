@@ -14,9 +14,9 @@ const Speakers = (props: Props) => {
           <h1>Speakers</h1>
         </div>
       </div>
-      <div className={`${props.className} secondmenucontents_container_flex holdcontent`}>
+      <div className={`${props.className} speakerscontents_container_flex holdcontent`}>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -28,7 +28,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -40,7 +40,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -52,7 +52,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -64,7 +64,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -76,7 +76,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -88,7 +88,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -100,7 +100,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -112,7 +112,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -124,7 +124,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -136,7 +136,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -148,7 +148,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
@@ -160,7 +160,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="" />
           </div>
