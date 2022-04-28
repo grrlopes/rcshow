@@ -23,6 +23,12 @@
 
 
 @media(max-width:450px) {
+  .banner_container_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
  .banner_btn_back {
     font-size: 2.5rem;
@@ -31,6 +37,75 @@
     top: .3em;
     left: 59rem;
     color: white;
+  }
+
+}
+
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
+
+  .banner_btn_back {
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    top: .3px;
+    left: 20.4rem;
+    color: white;
+    background-color: green;
+  }
+
+  .banner_flex_item img {
+    height: 8.8rem;
+    width: 23.4rem;
+    object-fit: cover;
+    object-position: 0% 0%;
+  }
+
+}
+
+/*iPhone 12, 12 pro*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+  .banner_btn_back {
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    top: .3px;
+    left: 21rem;
+    color: white;
+    background-color: red;
+  }
+
+  .banner_flex_item img {
+    height: 8.6rem;
+    width: 24.41rem;
+    object-fit: cover;
+    object-position: 0% 0%;
+  }
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+  .banner_btn_back {
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    top: 0.1rem;
+    left: 23.7rem;
+    color: white;
+    background-color: blue;
+  }
+
+  .banner_flex_item img {
+    height: 9.8rem;
+    width: 26.8rem;
+    object-fit: cover;
+    object-position: 0% 0%;
   }
 
 }

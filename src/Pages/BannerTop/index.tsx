@@ -18,7 +18,7 @@ const BannerTop = (props: Props) => {
   return (
     <div className={`${props.className} banner_container_flex`}>
       <div className="banner_flex_item" >
-        {!props.activity && <h1 className="banner_btn_back" onClick={() => menu()}>BACK</h1>}
+        {true && <h1 className="banner_btn_back" onClick={() => menu()}>BACK</h1>}
         <img src={Banner} alt="" />
       </div>
     </div>
