@@ -33,7 +33,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
             <img src={Speakers} />
           </div>
           <div>
-            <h1>SPEAKERS</h1>
+            <h1>speakers</h1>
           </div>
         </div>
       </div>

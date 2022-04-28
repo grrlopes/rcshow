@@ -1,57 +1,5 @@
-.initialmenu_container_flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  margin-left: 26rem;
-  margin-right: 31rem;
-}
 
-.initialmenu {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  background-image: url('../../Assets/background/button_bg.jpg');
-  border-radius: 16px;
-}
-
-.initialmenu img {
-  margin: 0.5rem;
-}
-
-.initialmenu h1 {
-  font-size: 1.5rem;
-  color: white;
-}
-
-.initialmenu_flex:nth-of-type(1) {
-  flex: 25rem;
-}
-
-.initialmenu_flex:nth-of-type(2) {
-  flex: 25rem;
-}
-
-.initialmenu_flex:nth-of-type(3) {
-  flex: 25rem;
-}
-
-.initialmenu_flex:nth-of-type(4) {
-  flex: 25rem;
-}
-
-.initialmenu_flex:nth-of-type(5) {
-  flex: 25rem;
-}
-
-.initialmenu_flex:nth-of-type(6) {
-  flex: 25rem;
-}
-
-@media(max-width:450px) {
+@media(width:4511px) {
 
   .initialmenu_container_flex {
     display: flex;
@@ -95,6 +43,203 @@
 
   .initialmenu h1 {
     font-size: 2.5rem;
+    color: white;
+  }
+
+}
+
+
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
+
+  .initialmenu_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+  .initialmenu img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .initialmenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('../../Assets/background/button_bg.jpg');
+    border-radius: 12px;
+  }
+
+  .initialmenu_flex:nth-of-type(1) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(2) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(3) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(4) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(5) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(6) {
+    flex: 10rem;
+  }
+
+  .initialmenu img {
+    margin-top: 0.1rem;
+  }
+
+  .initialmenu h1 {
+    font-size: 0.7rem;
+    color: white;
+  }
+
+}
+
+/*iPhone 12, 12 pro*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+  .initialmenu_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+  .initialmenu img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .initialmenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('../../Assets/background/button_bg.jpg');
+    border-radius: 12px;
+  }
+
+  .initialmenu_flex:nth-of-type(1) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(2) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(3) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(4) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(5) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(6) {
+    flex: 10rem;
+  }
+
+  .initialmenu img {
+    margin-top: 0.1rem;
+  }
+
+  .initialmenu h1 {
+    font-size: 0.7rem;
+    color: white;
+  }
+
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+  .initialmenu_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+  .initialmenu img {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .initialmenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('../../Assets/background/button_bg.jpg');
+    border-radius: 12px;
+  }
+
+  .initialmenu_flex:nth-of-type(1) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(2) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(3) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(4) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(5) {
+    flex: 10rem;
+  }
+
+  .initialmenu_flex:nth-of-type(6) {
+    flex: 10rem;
+  }
+
+  .initialmenu img {
+    margin-top: 0.1rem;
+  }
+
+  .initialmenu h1 {
+    font-size: 0.7rem;
     color: white;
   }
 
