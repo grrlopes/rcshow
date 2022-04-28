@@ -13,3 +13,48 @@
 .video_clip h1 {
   text-align: center;
 }
+
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
+
+  .videoclip_container_flex video {
+    height: 8rem;
+    width: 18rem;
+  }
+
+  .video_clip h1 {
+    text-align: center;
+  }
+
+}
+
+/*iPhone 12, 12 pro*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+  .videoclip_container_flex video {
+    height: 9rem;
+    width: 18rem;
+  }
+
+  .video_clip h1 {
+    text-align: center;
+  }
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+  .videoclip_container_flex video {
+    height: 8rem;
+    width: 20rem;
+  }
+
+  .video_clip h1 {
+    text-align: center;
+  }
+
+}
