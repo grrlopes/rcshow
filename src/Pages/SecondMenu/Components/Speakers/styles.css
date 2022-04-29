@@ -95,8 +95,6 @@
     position:relative;
   }
 
-
-
 }
 
 
@@ -148,14 +146,68 @@ and (orientation: portrait) {
   }
 
   .holdcontent {
-    height: 37.3vh;
+    height: 41.8vh;
+    width: auto;
+    overflow-y: auto;
+    position:relative;
+  }
+
+}
+
+
+/*iPhone XR, 11 414 x 896*/
+@media only screen and (width: 414px)
+and (orientation: portrait) {
+
+  .speakerscontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .speakerscontents h1 {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+  .speakerscontents p {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(46, 46, 46);
+  }
+
+  .speakerscontents img {
+    margin-top: 0.3rem;
+    margin-left: 2.5rem;
+    border-radius: 100%;
+    width: 3rem;
+  }
+
+  .topheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .topheader div {
+    border-bottom: solid red 0.3rem;
+  }
+
+  .topheader h1 {
+    font-size: 1rem;
+  }
+
+  .holdcontent {
+    height: 45.7vh;
     width: auto;
     overflow-y:auto;
     float:left;
     position:relative;
   }
-
-
 
 }
 
@@ -163,10 +215,110 @@ and (orientation: portrait) {
 @media only screen and (width: 390px)
 and (orientation: portrait) {
 
+  .speakerscontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .speakerscontents h1 {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+  .speakerscontents p {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(46, 46, 46);
+  }
+
+  .speakerscontents img {
+    margin-top: 0.3rem;
+    margin-left: 2.5rem;
+    border-radius: 100%;
+    width: 3rem;
+  }
+
+  .topheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .topheader div {
+    border-bottom: solid red 0.3rem;
+  }
+
+  .topheader h1 {
+    font-size: 1rem;
+  }
+
+  .holdcontent {
+    height: 43vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
 }
 
 /*iPhone 12 Pro Max*/
 @media only screen and (width: 428px)
 and (orientation: portrait) {
+
+  .speakerscontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .speakerscontents h1 {
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+  }
+
+  .speakerscontents p {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(46, 46, 46);
+  }
+
+  .speakerscontents img {
+    margin-top: 0.3rem;
+    margin-left: 2.5rem;
+    border-radius: 100%;
+    width: 3rem;
+  }
+
+  .topheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .topheader div {
+    border-bottom: solid red 0.3rem;
+  }
+
+  .topheader h1 {
+    font-size: 1rem;
+  }
+
+  .holdcontent {
+    height: 45.5vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
 
 }
