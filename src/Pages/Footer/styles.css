@@ -17,8 +17,9 @@
 and (orientation: portrait) {
 
   .footer_flex_item img {
-    height: 3.6rem;
+    height: 2.5rem;
     width: 23.4rem;
+    margin-bottom: -0.5rem;
     object-fit: cover;
     object-position: 100% 100%;
   }
@@ -30,8 +31,9 @@ and (orientation: portrait) {
 and (orientation: portrait) {
 
   .footer_flex_item img {
-    height: 12.1rem;
+    height: 2.7rem;
     width: 24.41rem;
+    margin-bottom: -0.5rem;
     object-fit: cover;
     object-position: 100% 100%;
   }
@@ -43,7 +45,7 @@ and (orientation: portrait) {
 and (orientation: portrait) {
 
   .footer_flex_item img {
-    height: 17rem;
+    height: 3rem;
     width: 26.75rem;
     object-fit: cover;
     object-position: 100% 100%;

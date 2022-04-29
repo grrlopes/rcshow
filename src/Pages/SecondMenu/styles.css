@@ -226,11 +226,4 @@ and (orientation: portrait) {
 @media only screen and (width: 428px)
 and (orientation: portrait) {
 
-  .footer_flex_item img {
-    height: 17rem;
-    width: 26.75rem;
-    object-fit: cover;
-    object-position: 100% 100%;
-  }
-
 }
