@@ -26,13 +26,13 @@ and (orientation: portrait) {
 
 }
 
-/*iPhone 12, 12 pro*/
-@media only screen and (width: 390px)
+/*iPhone XR, 11 414 x 896*/
+@media only screen and (width: 414px)
 and (orientation: portrait) {
 
   .footer_flex_item img {
-    height: 2.7rem;
-    width: 24.41rem;
+    height: 2.5rem;
+    width: 26rem;
     margin-bottom: -0.5rem;
     object-fit: cover;
     object-position: 100% 100%;

@@ -16,6 +16,20 @@ and (orientation: portrait) {
 
 }
 
+
+/*iPhone XR, 11 || 414 x 896*/
+@media only screen and (width: 414px)
+and (orientation: portrait) {
+
+  .slider_flex {
+    display: flex;
+    justify-content: center;
+    padding-top: 14.18rem;
+  }
+
+}
+
+
 /*iPhone 12, 12 pro || 390 x 844*/
 @media only screen and (width: 390px)
 and (orientation: portrait) {
