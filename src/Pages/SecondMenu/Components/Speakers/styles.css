@@ -110,16 +110,17 @@ and (orientation: portrait) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
   }
 
   .speakerscontents h1 {
-    font-size: 1.3em;
+    font-size: 1rem;
     text-align: center;
     color: black;
   }
 
   .speakerscontents p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: bold;
     text-align: center;
     color: rgb(46, 46, 46);
@@ -127,9 +128,9 @@ and (orientation: portrait) {
 
   .speakerscontents img {
     margin-top: 0.3rem;
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
     border-radius: 100%;
-    width: 5rem;
+    width: 3rem;
   }
 
   .topheader {
@@ -143,11 +144,11 @@ and (orientation: portrait) {
   }
 
   .topheader h1 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .holdcontent {
-    height: 60vh;
+    height: 37.3vh;
     width: auto;
     overflow-y:auto;
     float:left;

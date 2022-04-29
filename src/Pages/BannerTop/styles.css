@@ -56,7 +56,7 @@ and (orientation: portrait) {
   }
 
   .banner_flex_item img {
-    height: 8.8rem;
+    height: 8.1rem;
     width: 23.4rem;
     object-fit: cover;
     object-position: 0% 0%;

@@ -52,7 +52,7 @@
   flex: 25rem;
 }
 
-@media(max-width:450px) {
+@media(width:4500px) {
 
   .secondmenu_container_flex {
     display: flex;
@@ -121,6 +121,116 @@
   .icon_beat img {
     animation: beat .45s infinite alternate;
     transform-origin: center;
+  }
+
+}
+
+
+
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
+  .secondmenu_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .secondmenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url('../../Assets/background/button_bg.jpg');
+    border-radius: 16px;
+    padding-top: 0.5rem;
+    height: 3.5rem;
+  }
+
+  .secondmenu img {
+    margin: 0rem;
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .secondmenu h1 {
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  .secondmenu_red {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 16px;
+    background-color: red;
+    height: 3.4rem;
+  }
+
+  .secondmenu_red h1 {
+    font-size: 0.7rem;
+    color: white;
+
+  }
+
+  @keyframes beat {
+    to { transform: scale(0.7); }
+  }
+
+  .icon_beat img {
+    animation: beat .45s infinite alternate;
+    transform-origin: center;
+    height: 1.7rem;
+    width: 2rem;
+  }
+
+  .secondmenu_flex:nth-of-type(1) {
+    flex: 6rem;
+  }
+
+  .secondmenu_flex:nth-of-type(2) {
+    flex: 6rem;
+  }
+
+  .secondmenu_flex:nth-of-type(3) {
+    flex: 6rem;
+  }
+
+  .secondmenu_flex:nth-of-type(4) {
+    flex: 6rem;
+  }
+
+  .secondmenu_flex:nth-of-type(5) {
+    flex: 6rem;
+  }
+
+  .secondmenu_flex:nth-of-type(6) {
+    flex: 6rem;
+  }
+
+ }
+
+/*iPhone 12, 12 pro*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+  .footer_flex_item img {
+    height: 17rem;
+    width: 26.75rem;
+    object-fit: cover;
+    object-position: 100% 100%;
   }
 
 }

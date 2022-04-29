@@ -17,7 +17,7 @@
 and (orientation: portrait) {
 
   .footer_flex_item img {
-    height: 10.9rem;
+    height: 3.6rem;
     width: 23.4rem;
     object-fit: cover;
     object-position: 100% 100%;
