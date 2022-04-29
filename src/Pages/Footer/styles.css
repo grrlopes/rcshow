@@ -40,6 +40,20 @@ and (orientation: portrait) {
 
 }
 
+/*iPhone 12(ISO14) 12 Pro || 390 x 844*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+  .footer_flex_item img {
+    height: 2.5rem;
+    width: 24.4rem;
+    margin-bottom: -0.5rem;
+    object-fit: cover;
+    object-position: 100% 100%;
+  }
+
+}
+
 /*iPhone 12 Pro Max*/
 @media only screen and (width: 428px)
 and (orientation: portrait) {

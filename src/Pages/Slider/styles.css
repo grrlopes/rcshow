@@ -37,7 +37,7 @@ and (orientation: portrait) {
   .slider_flex {
     display: flex;
     justify-content: center;
-    padding-top: 6.1rem;
+    padding-top: 6.33rem;
   }
 
 }
