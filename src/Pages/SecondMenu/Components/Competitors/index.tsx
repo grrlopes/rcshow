@@ -33,7 +33,7 @@ const Competitors = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="competitorsmenu_container_grid">
+      <div className="competitorsmenu_container_grid holdcompetitorscontent ">
         <div className="competitors_grid">
 
           {
@@ -70,7 +70,7 @@ const Competitors = (props: Props) => {
                   <h1>JOHN BIL OYESTER SHUCKING</h1>
                 </div>
                 <div>
-                  <p>may 9-11, 2022</p>
+                  <p>MAY 9-11, 2022</p>
                 </div>
               </div>
 

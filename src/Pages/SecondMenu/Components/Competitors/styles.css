@@ -5,7 +5,7 @@
   justify-content: center;
   margin-left: 25rem;
   margin-right: 25rem;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .competitorsmenucontents {
@@ -36,7 +36,7 @@
   grid-row: 1;
 }
 
-@media(max-width:450px) {
+@media(width:45000px) {
 
   .competitorsmenucontents_container_flex {
     display: flex;
@@ -135,4 +135,447 @@
  
 }
 
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
 
+  .competitorsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .competitorsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .competitorsmenucontents h1 {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  .competitorsmenucontents p {
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .competitorsright, .competitorsleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .competitorsright {
+    justify-self: flex-end;
+  }
+  .competitorsleft {
+    justify-self: flex-start;
+  }
+  .competitorsright img, .competitorsleft img {
+    height: 2rem;
+  }
+
+  #competitors_1,
+  #competitors_2,
+  #competitors_3,
+  #competitors_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #competitors_1 {
+    background-image: url("../../../../Assets/events/garland_winner-landscape.jpg");
+  }
+
+  #competitors_2 {
+    background-image: url("../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #competitors_3 {
+    background-image: url("../../../../Assets/events/alcohol-bar-beverage-black-background-312080-landscape.jpg");
+    background-size: 100% 100%;
+  }
+
+  #competitors_4 {
+    background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+
+  .topcompetitors_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topcompetitorscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topcompetitorscontents_header h1 {
+    font-size: 0.9rem;
+  }
+
+  .topcompetitors_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .holdcompetitorscontent {
+    height: 40.4vh;
+  }
+
+}
+
+
+/*iPhone XR, 11 414 x 896*/
+@media only screen and (width: 414px)
+and (orientation: portrait) {
+
+  .competitorsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .competitorsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .competitorsmenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .competitorsmenucontents p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .competitorsright, .competitorsleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .competitorsright {
+    justify-self: flex-end;
+  }
+  .competitorsleft {
+    justify-self: flex-start;
+  }
+  .competitorsright img, .competitorsleft img {
+    height: 3rem;
+  }
+
+  #competitors_1,
+  #competitors_2,
+  #competitors_3,
+  #competitors_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #competitors_1 {
+    background-image: url("../../../../Assets/events/garland_winner-landscape.jpg");
+  }
+
+  #competitors_2 {
+    background-image: url("../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #competitors_3 {
+    background-image: url("../../../../Assets/events/alcohol-bar-beverage-black-background-312080-landscape.jpg");
+    background-size: 100% 100%;
+  }
+
+  #competitors_4 {
+    background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+
+  .topcompetitors_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topcompetitorscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topcompetitorscontents_header h1 {
+    font-size: 0.9rem;
+  }
+
+  .topcompetitors_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .holdcompetitorscontent {
+    height: 44.6vh;
+  }
+
+}
+
+/*iPhone 12, 12 pro*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+  .competitorsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .competitorsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 8rem;
+    width: 9rem;
+  }
+
+  .competitorsmenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .competitorsmenucontents p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .competitorsright, .competitorsleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .competitorsright {
+    justify-self: flex-end;
+  }
+  .competitorsleft {
+    justify-self: flex-start;
+  }
+  .competitorsright img, .competitorsleft img {
+    height: 4rem;
+  }
+
+  #competitors_1,
+  #competitors_2,
+  #competitors_3,
+  #competitors_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #competitors_1 {
+    background-image: url("../../../../Assets/events/garland_winner-landscape.jpg");
+  }
+
+  #competitors_2 {
+    background-image: url("../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #competitors_3 {
+    background-image: url("../../../../Assets/events/alcohol-bar-beverage-black-background-312080-landscape.jpg");
+    background-size: 100% 100%;
+  }
+
+  #competitors_4 {
+    background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+
+  .topcompetitors_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topcompetitorscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topcompetitorscontents_header h1 {
+    font-size: 0.9rem;
+  }
+
+  .topcompetitors_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .holdcompetitorscontent {
+    height: 41.8vh;
+  }
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+  .competitorsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .competitorsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 9.5rem;
+    width: 10.5rem;
+  }
+
+  .competitorsmenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  .competitorsmenucontents p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .competitorsright, .competitorsleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .competitorsright {
+    justify-self: flex-end;
+  }
+  .competitorsleft {
+    justify-self: flex-start;
+  }
+  .competitorsright img, .competitorsleft img {
+    height: 3.5rem;
+  }
+
+  #competitors_1,
+  #competitors_2,
+  #competitors_3,
+  #competitors_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #competitors_1 {
+    background-image: url("../../../../Assets/events/garland_winner-landscape.jpg");
+  }
+
+  #competitors_2 {
+    background-image: url("../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #competitors_3 {
+    background-image: url("../../../../Assets/events/alcohol-bar-beverage-black-background-312080-landscape.jpg");
+    background-size: 100% 100%;
+  }
+
+  #competitors_4 {
+    background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+
+  .topcompetitors_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topcompetitorscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topcompetitorscontents_header h1 {
+    font-size: 0.9rem;
+  }
+
+  .topcompetitors_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .holdcompetitorscontent {
+    height: 44.4vh;
+  }
+
+}
