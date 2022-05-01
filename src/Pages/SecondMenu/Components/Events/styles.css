@@ -16,7 +16,7 @@
 }
 
 
-@media(max-width:450px) {
+@media(width:45000px) {
 
   .eventsmenucontents_container_flex {
     display: flex;
@@ -145,6 +145,140 @@
     line-break: normal;
   }
 
+}
+
+
+
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
+
+  .eventsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 1rem;
+  }
+
+  .eventsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 6.55rem;
+    width: 10rem;
+  }
+
+  .eventsmenucontents h1, .eventsmenucontents p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .eventModal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .eventModal section  {
+    height: 87.5vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+  .eventModal img {
+    background-repeat: no-repeat;
+    height: auto;
+    width: 21rem;
+    opacity: 0.9;
+  }
+
+  .eventModal_btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .eventModal_btn button {
+    padding: 0.2rem 0.7rem;
+    border: 0.2rem solid red;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  #events_1,
+  #events_2,
+  #events_3,
+  #events_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #events_1 {
+    background-image: url("../../../../Assets/events/RCLeadership_10b.jpg");
+  }
+
+  #events_2 {
+    background-image: url("../../../../Assets/events/39818312725_d56781b864_c.jpg");
+  }
+
+  #events_3 {
+    background-image: url("../../../../Assets/events/38901354390_fc65786d99_h.jpg");
+    background-size: 100% 100%;
+  }
+
+  #events_4 {
+    background-image: url("../../../../Assets/events/michael-discenza-199756.jpg");
+  }
+
+
+  .topevents_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topeventscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topeventscontents_header h1 {
+    font-size: 1rem;
+  }
+
+  .topeventscontents_header h2 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: darkgrey;
+  }
+
+  .topevents_red {
+    border-bottom: solid red 0.5rem;
+    text-align: center;
+    line-break: normal;
+  }
+
   .hholdeventscontent {
     height: 135vh;
     width: auto;
@@ -153,7 +287,406 @@
     position:relative;
   }
 
-
 }
 
 
+/*iPhone XR, 11 414 x 896*/
+@media only screen and (width: 414px)
+and (orientation: portrait) {
+
+  .eventsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 1rem;
+  }
+
+  .eventsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 8.55rem;
+    width: 11rem;
+  }
+
+  .eventsmenucontents h1, .eventsmenucontents p {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .eventModal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .eventModal section  {
+    height: 89vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+  .eventModal img {
+    background-repeat: no-repeat;
+    height: auto;
+    width: 23.2rem;
+    opacity: 0.9;
+  }
+
+  .eventModal_btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .eventModal_btn button {
+    padding: 0.2rem 0.7rem;
+    border: 0.2rem solid red;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  #events_1,
+  #events_2,
+  #events_3,
+  #events_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #events_1 {
+    background-image: url("../../../../Assets/events/RCLeadership_10b.jpg");
+  }
+
+  #events_2 {
+    background-image: url("../../../../Assets/events/39818312725_d56781b864_c.jpg");
+  }
+
+  #events_3 {
+    background-image: url("../../../../Assets/events/38901354390_fc65786d99_h.jpg");
+    background-size: 100% 100%;
+  }
+
+  #events_4 {
+    background-image: url("../../../../Assets/events/michael-discenza-199756.jpg");
+  }
+
+  .topevents_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topeventscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topeventscontents_header h1 {
+    font-size: 1rem;
+  }
+
+  .topeventscontents_header h2 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: darkgrey;
+  }
+
+  .topevents_red {
+    border-bottom: solid red 0.5rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+}
+
+/*iPhone 12, 12 pro*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+  .eventsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 1rem;
+  }
+
+  .eventsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 7.25rem;
+    width: 10rem;
+  }
+
+  .eventsmenucontents h1, .eventsmenucontents p {
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  .eventModal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .eventModal section  {
+    height: 88.5vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+  .eventModal img {
+    background-repeat: no-repeat;
+    height: auto;
+    width: 22rem;
+    opacity: 0.9;
+  }
+
+  .eventModal_btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .eventModal_btn button {
+    padding: 0.2rem 0.7rem;
+    border: 0.2rem solid red;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  #events_1,
+  #events_2,
+  #events_3,
+  #events_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #events_1 {
+    background-image: url("../../../../Assets/events/RCLeadership_10b.jpg");
+  }
+
+  #events_2 {
+    background-image: url("../../../../Assets/events/39818312725_d56781b864_c.jpg");
+  }
+
+  #events_3 {
+    background-image: url("../../../../Assets/events/38901354390_fc65786d99_h.jpg");
+    background-size: 100% 100%;
+  }
+
+  #events_4 {
+    background-image: url("../../../../Assets/events/michael-discenza-199756.jpg");
+  }
+
+  .topevents_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topeventscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topeventscontents_header h1 {
+    font-size: 1rem;
+  }
+
+  .topeventscontents_header h2 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: darkgrey;
+  }
+
+  .topevents_red {
+    border-bottom: solid red 0.5rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .hholdeventscontent {
+    height: 135vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+  .eventsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 1rem;
+  }
+
+  .eventsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 8.93rem;
+    width: 11rem;
+  }
+
+  .eventsmenucontents h1, .eventsmenucontents p {
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .eventModal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .eventModal section  {
+    height: 89.5vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+  .eventModal img {
+    background-repeat: no-repeat;
+    height: auto;
+    width: 25rem;
+    opacity: 0.9;
+  }
+
+  .eventModal_btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .eventModal_btn button {
+    padding: 0.2rem 0.7rem;
+    border: 0.2rem solid red;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  #events_1,
+  #events_2,
+  #events_3,
+  #events_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #events_1 {
+    background-image: url("../../../../Assets/events/RCLeadership_10b.jpg");
+  }
+
+  #events_2 {
+    background-image: url("../../../../Assets/events/39818312725_d56781b864_c.jpg");
+  }
+
+  #events_3 {
+    background-image: url("../../../../Assets/events/38901354390_fc65786d99_h.jpg");
+    background-size: 100% 100%;
+  }
+
+  #events_4 {
+    background-image: url("../../../../Assets/events/michael-discenza-199756.jpg");
+  }
+
+  .topevents_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topeventscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topeventscontents_header h1 {
+    font-size: 1rem;
+  }
+
+  .topeventscontents_header h2 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: darkgrey;
+  }
+
+  .topevents_red {
+    border-bottom: solid red 0.5rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+}
