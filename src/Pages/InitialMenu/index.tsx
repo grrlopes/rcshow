@@ -58,7 +58,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
         </div>
       </div>
       <div className="initialmenu_flex initialmenu_features_flex">
-        <div className="initialmenu">
+        <div className="initialmenu" onClick={() => menu("features")}>
           <div className="icon">
             <img src={Features} />
           </div>

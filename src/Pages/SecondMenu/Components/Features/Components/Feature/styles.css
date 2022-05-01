@@ -1,0 +1,101 @@
+/*iPhone 6, 6S, 7 and 8 || 375 x 667*/
+@media only screen and (width: 375px)
+and (orientation: portrait) {
+
+  .featuremenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .featuremenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .featuremenucontents h1 {
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+
+  .featuremenucontents p {
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  #feature_1,
+  #feature_2,
+  #feature_3,
+  #feature_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #feature_1 {
+    background-image: url("../../../../../../Assets/events/garland_winner-landscape.jpg");
+  }
+
+  #feature_2 {
+    background-image: url("../../../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #feature_3 {
+    background-image: url("../../../../../../Assets/events/alcohol-bar-beverage-black-background-312080-landscape.jpg");
+    background-size: 100% 100%;
+  }
+
+  #feature_4 {
+    background-image: url("../../../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+}
+
+
+/*iPhone XR, 11 414 x 896*/
+@media only screen and (width: 414px)
+and (orientation: portrait) {
+
+}
+
+/*iPhone 12(ISO14) 12 Pro || 390 x 844*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+}
+
+/*iPhone XR, 11 414 x 896*/
+@media only screen and (width: 414px)
+and (orientation: portrait) {
+
+}
+
+/*iPhone XR, 11 414 x 896*/
+@media only screen and (width: 414px)
+and (orientation: portrait) {
+
+}
+
+/*iPhone 12(ISO14) 12 Pro || 390 x 844*/
+@media only screen and (width: 390px)
+and (orientation: portrait) {
+
+}
+
+/*iPhone 12 Pro Max*/
+@media only screen and (width: 428px)
+and (orientation: portrait) {
+
+}
+
