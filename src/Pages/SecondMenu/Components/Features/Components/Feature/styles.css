@@ -45,17 +45,128 @@ and (orientation: portrait) {
 @media only screen and (width: 414px)
 and (orientation: portrait) {
 
+  .featuremenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .featuremenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .featuremenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #feature_1 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+  }
+
+  #feature_1 {
+    background-image: url("../../../../../../Assets/events/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+  }
+
 }
 
 /*iPhone 12(ISO14) 12 Pro || 390 x 844*/
 @media only screen and (width: 390px)
 and (orientation: portrait) {
 
+  .featuremenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .featuremenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .featuremenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #feature_1 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+  }
+
+  #feature_1 {
+    background-image: url("../../../../../../Assets/events/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+  }
+
 }
 
 /*iPhone 12 Pro Max*/
 @media only screen and (width: 428px)
 and (orientation: portrait) {
+
+  .featuremenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .featuremenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .featuremenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #feature_1 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+  }
+
+  #feature_1 {
+    background-image: url("../../../../../../Assets/events/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+  }
 
 }
 

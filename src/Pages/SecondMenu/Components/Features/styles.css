@@ -222,15 +222,24 @@ and (orientation: portrait) {
     line-break: normal;
   }
 
-  .holdfeaturecontent {
-    height: 44.6vh;
+  .topfeaturecontents_date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
-}
+  .topfeature_date_red {
+    border-bottom: solid red 0.3rem;
+  }
 
-/*iPhone XR, 11 414 x 896*/
-@media only screen and (width: 414px)
-and (orientation: portrait) {
+  .topfeaturecontents_date h1 {
+    font-size: 0.7rem;
+  }
+
+  .holdfeaturecontent {
+    height: 41.3vh;
+  }
 
 }
 
@@ -238,11 +247,145 @@ and (orientation: portrait) {
 @media only screen and (width: 390px)
 and (orientation: portrait) {
 
+  .topschedule_date_red {
+    border-bottom: solid red 0.5rem;
+  }
+
+  .featureright, .featureleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .featureright {
+    justify-self: flex-end;
+  }
+
+  .featureleft {
+    justify-self: flex-start;
+  }
+
+  .featureright img, .featureleft img {
+    height: 2rem;
+  }
+
+  .topfeature_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topfeaturecontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topfeaturecontents_header h1 {
+    font-size: 0.9rem;
+  }
+
+  .topfeature_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .topfeaturecontents_date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .topfeature_date_red {
+    border-bottom: solid red 0.3rem;
+  }
+
+  .topfeaturecontents_date h1 {
+    font-size: 0.7rem;
+  }
+
+  .holdfeaturecontent {
+    height: 38.2vh;
+  }
+
 }
 
 /*iPhone 12 Pro Max*/
 @media only screen and (width: 428px)
 and (orientation: portrait) {
+
+  .topschedule_date_red {
+    border-bottom: solid red 0.5rem;
+  }
+
+  .featureright, .featureleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .featureright {
+    justify-self: flex-end;
+  }
+
+  .featureleft {
+    justify-self: flex-start;
+  }
+
+  .featureright img, .featureleft img {
+    height: 2rem;
+  }
+
+  .topfeature_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topfeaturecontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topfeaturecontents_header h1 {
+    font-size: 0.9rem;
+  }
+
+  .topfeature_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .topfeaturecontents_date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .topfeature_date_red {
+    border-bottom: solid red 0.3rem;
+  }
+
+  .topfeaturecontents_date h1 {
+    font-size: 0.7rem;
+  }
+
+  .holdfeaturecontent {
+    height: 41.2vh;
+  }
 
 }
 

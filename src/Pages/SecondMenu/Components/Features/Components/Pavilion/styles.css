@@ -81,17 +81,236 @@ and (orientation: portrait) {
 @media only screen and (width: 414px)
 and (orientation: portrait) {
 
+  .pavilionmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 1rem;
+  }
+
+  .pavilionmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 6.5rem;
+    width: 9rem;
+  }
+
+  .pavilionmenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #pavilion_1,
+  #pavilion_2,
+  #pavilion_3,
+  #pavilion_4,
+  #pavilion_5,
+  #pavilion_6,
+  #pavilion_7,
+  #pavilion_8 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+  }
+
+  #pavilion_1 {
+    background-image: url("../../../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #pavilion_2 {
+    background-image: url("../../../../../../Assets/events/Canada-Header.jpg");
+  }
+
+  #pavilion_3 {
+    background-image: url("../../../../../../Assets/events/coffee.jpg");
+  }
+
+  #pavilion_4 {
+    background-image: url("../../../../../../Assets/events/green.jpg");
+  }
+
+  #pavilion_5 {
+    background-image: url("../../../../../../Assets/events/eco-3.jpg");
+  }
+
+  #pavilion_6 {
+    background-image: url("../../../../../../Assets/events/specialty.jpg");
+  }
+
+  #pavilion_7 {
+    background-image: url("../../../../../../Assets/events/tech.jpg");
+  }
+
+  #pavilion_8 {
+    background-image: url("../../../../../../Assets/events/WORLD-HEADER.jpg");
+  }
+
 }
 
 /*iPhone 12(ISO14) 12 Pro || 390 x 844*/
 @media only screen and (width: 390px)
 and (orientation: portrait) {
 
+  .pavilionmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 1rem;
+  }
+
+  .pavilionmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 6.5rem;
+    width: 9rem;
+  }
+
+  .pavilionmenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #pavilion_1,
+  #pavilion_2,
+  #pavilion_3,
+  #pavilion_4,
+  #pavilion_5,
+  #pavilion_6,
+  #pavilion_7,
+  #pavilion_8 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+  }
+
+  #pavilion_1 {
+    background-image: url("../../../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #pavilion_2 {
+    background-image: url("../../../../../../Assets/events/Canada-Header.jpg");
+  }
+
+  #pavilion_3 {
+    background-image: url("../../../../../../Assets/events/coffee.jpg");
+  }
+
+  #pavilion_4 {
+    background-image: url("../../../../../../Assets/events/green.jpg");
+  }
+
+  #pavilion_5 {
+    background-image: url("../../../../../../Assets/events/eco-3.jpg");
+  }
+
+  #pavilion_6 {
+    background-image: url("../../../../../../Assets/events/specialty.jpg");
+  }
+
+  #pavilion_7 {
+    background-image: url("../../../../../../Assets/events/tech.jpg");
+  }
+
+  #pavilion_8 {
+    background-image: url("../../../../../../Assets/events/WORLD-HEADER.jpg");
+  }
+
 }
 
 /*iPhone 12 Pro Max*/
 @media only screen and (width: 428px)
 and (orientation: portrait) {
+
+  .pavilionmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 1rem;
+  }
+
+  .pavilionmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 6.5rem;
+    width: 9rem;
+  }
+
+  .pavilionmenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #pavilion_1,
+  #pavilion_2,
+  #pavilion_3,
+  #pavilion_4,
+  #pavilion_5,
+  #pavilion_6,
+  #pavilion_7,
+  #pavilion_8 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+  }
+
+  #pavilion_1 {
+    background-image: url("../../../../../../Assets/events/beyond-the-rail.jpg");
+  }
+
+  #pavilion_2 {
+    background-image: url("../../../../../../Assets/events/Canada-Header.jpg");
+  }
+
+  #pavilion_3 {
+    background-image: url("../../../../../../Assets/events/coffee.jpg");
+  }
+
+  #pavilion_4 {
+    background-image: url("../../../../../../Assets/events/green.jpg");
+  }
+
+  #pavilion_5 {
+    background-image: url("../../../../../../Assets/events/eco-3.jpg");
+  }
+
+  #pavilion_6 {
+    background-image: url("../../../../../../Assets/events/specialty.jpg");
+  }
+
+  #pavilion_7 {
+    background-image: url("../../../../../../Assets/events/tech.jpg");
+  }
+
+  #pavilion_8 {
+    background-image: url("../../../../../../Assets/events/WORLD-HEADER.jpg");
+  }
 
 }
 
