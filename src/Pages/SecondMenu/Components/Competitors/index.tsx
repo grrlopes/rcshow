@@ -80,9 +80,9 @@ const Competitors = (props: Props) => {
 
           {
             page === 2 && < div className={`${props.className} competitorsmenucontents_container_flex`}>
-              <div className="competitorsmenucontents" id="competitors_1">
+              <div className="competitorsmenucontents" id="competitors_5">
                 <div>
-                  <h1>GARLAND DISCOVERED CULINARY</h1>
+                  <h1>COFFEE IN GOOD SPIRITS</h1>
                 </div>
                 <div>
                   <p>MAY 9-11, 2022</p>

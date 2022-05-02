@@ -169,6 +169,7 @@ and (orientation: portrait) {
   .competitorsmenucontents p {
     color: white;
     font-size: 0.8rem;
+    font-weight: bold;
   }
 
   .competitorsright, .competitorsleft {
@@ -191,7 +192,8 @@ and (orientation: portrait) {
   #competitors_1,
   #competitors_2,
   #competitors_3,
-  #competitors_4 {
+  #competitors_4,
+  #competitors_5 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0.9;
@@ -214,6 +216,9 @@ and (orientation: portrait) {
     background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
   }
 
+  #competitors_5 {
+    background-image: url("../../../../Assets/events/coffee.jpg");
+  }
 
   .topcompetitors_container_flex {
     display: flex;
@@ -281,6 +286,7 @@ and (orientation: portrait) {
   .competitorsmenucontents p {
     color: white;
     font-size: 1rem;
+    font-weight: bold;
   }
 
   .competitorsright, .competitorsleft {
@@ -303,7 +309,8 @@ and (orientation: portrait) {
   #competitors_1,
   #competitors_2,
   #competitors_3,
-  #competitors_4 {
+  #competitors_4,
+  #competitors_5 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0.9;
@@ -324,6 +331,10 @@ and (orientation: portrait) {
 
   #competitors_4 {
     background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+  #competitors_5 {
+    background-image: url("../../../../Assets/events/coffee.jpg");
   }
 
 
@@ -392,6 +403,7 @@ and (orientation: portrait) {
   .competitorsmenucontents p {
     color: white;
     font-size: 1rem;
+    font-weight: bold;
   }
 
   .competitorsright, .competitorsleft {
@@ -414,7 +426,8 @@ and (orientation: portrait) {
   #competitors_1,
   #competitors_2,
   #competitors_3,
-  #competitors_4 {
+  #competitors_4,
+  #competitors_5 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0.9;
@@ -437,6 +450,9 @@ and (orientation: portrait) {
     background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
   }
 
+  #competitors_5 {
+    background-image: url("../../../../Assets/events/coffee.jpg");
+  }
 
   .topcompetitors_container_flex {
     display: flex;
@@ -503,6 +519,7 @@ and (orientation: portrait) {
   .competitorsmenucontents p {
     color: white;
     font-size: 1rem;
+    font-weight: bold;
   }
 
   .competitorsright, .competitorsleft {
@@ -525,7 +542,8 @@ and (orientation: portrait) {
   #competitors_1,
   #competitors_2,
   #competitors_3,
-  #competitors_4 {
+  #competitors_4,
+  #competitors_5 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     opacity: 0.9;
@@ -546,6 +564,10 @@ and (orientation: portrait) {
 
   #competitors_4 {
     background-image: url("../../../../Assets/events/oyster-shucking-3-landscape.jpg");
+  }
+
+  #competitors_5 {
+    background-image: url("../../../../Assets/events/coffee.jpg");
   }
 
 

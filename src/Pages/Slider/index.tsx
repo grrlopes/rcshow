@@ -26,7 +26,7 @@ const Slide = (props: Props) => {
     <div className={`${props.className} slider_flex`}>
       <Carousel
         autoPlay={true}
-        interval={1000}
+        interval={1350}
         infiniteLoop={true}
         showThumbs={false}
         showIndicators={false}
