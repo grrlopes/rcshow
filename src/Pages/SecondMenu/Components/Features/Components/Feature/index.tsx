@@ -3,7 +3,10 @@ import Modal from "react-modal";
 
 import "./styles.css";
 
-import FoodTruck from "../../../../../../Assets/details_2/foodtruckn-experience.jpg"
+import FoodTruck from "../../../../../../Assets/feature/features/modal/01-The-Food-Truck'N-Experience.jpg"
+import PopUp from "../../../../../../Assets/feature/features/modal/00-Pop-up-Experience.jpg"
+import Outdoor from "../../../../../../Assets/feature/features/modal/02-Outdoor-patio-Experience.jpg"
+import Startup from "../../../../../../Assets/feature/features/modal/03-startup-lane.jpg"
 
 interface Props {
   className: string;
@@ -44,17 +47,17 @@ const FeaturePaths: FC<Props> = (props: Props) => {
               <h1>fOOD TRUCK'N EXPERIENCE</h1>
             </div>
           </div>
-          <div className="featuremenucontents" id="feature_2" onClick={() => openModal("foodtruck")}>
+          <div className="featuremenucontents" id="feature_2" onClick={() => openModal("popup")}>
             <div>
               <h1>POP UP EXPERIENCE</h1>
             </div>
           </div>
-          <div className="featuremenucontents" id="feature_3" onClick={() => openModal("foodtruck")}>
+          <div className="featuremenucontents" id="feature_3" onClick={() => openModal("outdoor")}>
             <div>
               <h1>OUTDOOR PATIO EXPERIENCE</h1>
             </div>
           </div>
-          <div className="featuremenucontents" id="feature_4" onClick={() => openModal("foodtruck")}>
+          <div className="featuremenucontents" id="feature_4" onClick={() => openModal("startup")}>
             <div>
               <h1>START UP LANE</h1>
             </div>
@@ -76,6 +79,9 @@ const FeaturePaths: FC<Props> = (props: Props) => {
               <section>
                 <div>
                   {modalType === "foodtruck" && <img src={FoodTruck} alt="" />}
+                  {modalType === "popup" && <img src={PopUp} alt="" />}
+                  {modalType === "outdoor" && <img src={Outdoor} alt="" />}
+                  {modalType === "startup" && <img src={Startup} alt="" />}
                 </div>
               </section>
             </div>
