@@ -148,20 +148,20 @@ and (orientation: portrait) {
     text-align: center;
 
     border-radius: 8%;
-    height: 7rem;
-    width: 7rem;
+    height: 9rem;
+    width: 10.5rem;
   }
 
   .featuremenucontents h1 {
     color: white;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
     font-weight: bold;
   }
 
   #feature_1 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   #feature_1 {
