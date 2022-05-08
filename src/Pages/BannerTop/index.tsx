@@ -1,5 +1,5 @@
 import "./styles.css"
-import Banner from "../../Assets/bannerTop/home_v3.png"
+import Banner from "../../Assets/bannerTop/home_v3_revised.png"
 import { useState } from "react";
 
 interface Props {
