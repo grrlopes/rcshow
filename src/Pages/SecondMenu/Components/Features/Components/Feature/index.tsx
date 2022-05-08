@@ -41,7 +41,22 @@ const FeaturePaths: FC<Props> = (props: Props) => {
 
           <div className="featuremenucontents" id="feature_1" onClick={() => openModal("foodtruck")}>
             <div>
-              <h1>FOOD TRUCK'N EXPERIENCE</h1>
+              <h1>fOOD TRUCK'N EXPERIENCE</h1>
+            </div>
+          </div>
+          <div className="featuremenucontents" id="feature_2" onClick={() => openModal("foodtruck")}>
+            <div>
+              <h1>POP UP EXPERIENCE</h1>
+            </div>
+          </div>
+          <div className="featuremenucontents" id="feature_3" onClick={() => openModal("foodtruck")}>
+            <div>
+              <h1>OUTDOOR PATIO EXPERIENCE</h1>
+            </div>
+          </div>
+          <div className="featuremenucontents" id="feature_4" onClick={() => openModal("foodtruck")}>
+            <div>
+              <h1>START UP LANE</h1>
             </div>
           </div>
 
