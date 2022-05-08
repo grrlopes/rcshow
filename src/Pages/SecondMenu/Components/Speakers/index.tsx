@@ -65,357 +65,357 @@ const Speakers = (props: Props) => {
           <h1>Speakers</h1>
         </div>
       </div>
-      <div className={`${props.className} secondmenucontents_container_flex holdcontent`}>
+      <div className={`${props.className} speakerscontents_container_flex holdcontent`}>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Adam} alt="adam teolis" />
           </div>
           <div>
-            <h1>adam teolis</h1>
+            <h1>ADAM TEOLIS</h1>
           </div>
           <div>
-            <p>founder & ceo, chefdrop</p>
+            <p>Founder & Ceo, Chefdrop</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Andy} alt="andy deonarine" />
           </div>
           <div>
-            <h1>andy deonarine</h1>
+            <h1>ANDY DEONARINE</h1>
           </div>
           <div>
-            <p>co-ceo, cannsell</p>
+            <p>Co-Ceo, Cannsell</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Asad} alt="asad amin" />
           </div>
           <div>
-            <h1>asad amin</h1>
+            <h1>ASAD AMIN</h1>
           </div>
           <div>
-            <p>senior vice president, ipsos</p>
+            <p>Senior Vice President, Ipsos</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Chad} alt="chad finkelstein" />
           </div>
           <div>
-            <h1>chad finkelstein</h1>
+            <h1>CHAD FINKELSTEIN</h1>
           </div>
           <div>
-            <p>partner, dale & lessmann llp</p>
+            <p>Partner, Dale & Lessmann Llp</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Cheryl} alt="cheryl appleton" />
           </div>
           <div>
-            <h1>cheryl appleton</h1>
+            <h1>CHERYL APPLETON</h1>
           </div>
           <div>
-            <p>founder, canadian women in food</p>
+            <p>Founder, Canadian Women In Food</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Chris} alt="chris barret" />
           </div>
           <div>
-            <h1>chris barret</h1>
+            <h1>CHRIS BARRET</h1>
           </div>
           <div>
-            <p>ceo, operatic agency</p>
+            <p>Ceo, Operatic Agency</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Dana} alt="dana mccauley" />
           </div>
           <div>
-            <h1>dana mccauley</h1>
+            <h1>DANA</h1>
           </div>
           <div>
-            <p>chief experience officer, canadian food innovation network</p>
+            <p>Chief Experience Officer, Canadian Food Innovation Network</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Douglas} alt="douglas mcmaster" />
           </div>
           <div>
-            <h1>douglas mcmaster</h1>
+            <h1>DOUGLAS MCMASTER</h1>
           </div>
           <div>
-            <p>founder, silo - london</p>
+            <p>Founder, Silo - London</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Duncan} alt="duncan fulton" />
           </div>
           <div>
-            <h1>duncan fulton</h1>
+            <h1>DUNCAN FULTON</h1>
           </div>
           <div>
-            <p>chief corporate officer, restaurant brands international inc</p>
+            <p>Chief Corporate Officer, Restaurant Brands International Inc</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Eric} alt="eric joyal" />
           </div>
           <div>
-            <h1>eric joyal</h1>
+            <h1>ERIC JOYAL</h1>
           </div>
           <div>
-            <p>president, ascari hospitality group</p>
+            <p>President, Ascari Hospitality Group</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Michel} alt="michel falcon" />
           </div>
           <div>
-            <h1>michel falcon</h1>
+            <h1>MICHEL FALCON</h1>
           </div>
           <div>
-            <p>owner, brasa peruvian kitchen</p>
+            <p>Owner, Brasa Peruvian Kitchen</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Estherfl} alt="esther fleurimond" />
           </div>
           <div>
-            <h1>esther fleurimond</h1>
+            <h1>ESTHER FLEURIMOND</h1>
           </div>
           <div>
-            <p>specialized consultant, healthy workplaces, workplace safety & prevention services (wsps)</p>
+            <p>Specialized Consultant, Healthy Workplaces, Workplace Safety & Prevention Services (wsps)</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Hasselavi} alt="hassel aviles" />
           </div>
           <div>
-            <h1>hassel aviles</h1>
+            <h1>HASSEL AVILES</h1>
           </div>
           <div>
-            <p>executive director, not 9 to 5 org</p>
+            <p>Executive Director, not 9 to 5 org</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Jameswat} alt="james watson" />
           </div>
           <div>
-            <h1>james watson</h1>
+            <h1>JAMES WATSON</h1>
           </div>
           <div>
-            <p>merchandising manager (canada), gordon food service</p>
+            <p>Merchandising Manager (canada), Gordon Food Service</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Jasongia} alt="jason giagrande" />
           </div>
           <div>
-            <h1>jason giagrande</h1>
+            <h1>JASON GIAGRANDE</h1>
           </div>
           <div>
-            <p>head of business, xtm inc.</p>
+            <p>Head Of Business, Xtm Inc.</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Jennifermén} alt="jennifer ménard-shand" />
           </div>
           <div>
-            <h1>jennifer ménard-shand</h1>
+            <h1>JENNIFER MÉNARD-SHAND</h1>
           </div>
           <div>
-            <p>founder & ceo, staff shop inc.</p>
+            <p>Founder & Ceo, Staff Shop Inc.</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Jimtay} alt="jim taylor" />
           </div>
           <div>
-            <h1>jim taylor</h1>
+            <h1>JIM TAYLOR</h1>
           </div>
           <div>
-            <p>founder & ceo, benchmarksixty</p>
+            <p>Founder & Ceo, Benchmarksixty</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Joannmca} alt="jo-ann mcarthur" />
           </div>
           <div>
-            <h1>jo-ann mcarthur</h1>
+            <h1>JO-ANN MCARTHUR</h1>
           </div>
           <div>
-            <p>president & founder, nourish food marketing</p>
+            <p>President & Founder, Nourish Food Marketing</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Juanitadic} alt="juanita dickson" />
           </div>
           <div>
-            <h1>juanita dickson</h1>
+            <h1>JUANITA DICKSON</h1>
           </div>
           <div>
-            <p>president & cfo, gusto 54 restaurant group</p>
+            <p>President & Cfo, Gusto 54 Restaurant Group</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Julieden} alt="julie denton" />
           </div>
           <div>
-            <h1>julie denton</h1>
+            <h1>JULIE DENTON</h1>
           </div>
           <div>
-            <p>chief people officer, recipe unlimited</p>
+            <p>Chief People Officer, Recipe Unlimited</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Rogermoo} alt="roger mooking" />
           </div>
           <div>
-            <h1>roger mooking</h1>
+            <h1>ROGER MOOKING</h1>
           </div>
           <div>
-            <p>chef, television host & restaurateur</p>
+            <p>Chef, Television Host & Restaurateur</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Kylatuo} alt="kyla tuori" />
           </div>
           <div>
-            <h1>kyla tuori</h1>
+            <h1>KYLA TUORI</h1>
           </div>
           <div>
-            <p>corporate chef, unilever food solutions & #fairkitchens ambassador</p>
+            <p>Corporate Chef, Unilever Food Solutions & #Fairkitchens Ambassador</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Mattdea} alt="matt dean pettit" />
           </div>
           <div>
-            <h1>matt dean pettit</h1>
+            <h1>MATT DEAN PETTIT</h1>
           </div>
           <div>
-            <p>chef, television personality & entrepreneur</p>
+            <p>Chef, Television Personality & Entrepreneur</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Mattjoh} alt="matt johnston" />
           </div>
           <div>
-            <h1>matt johnston</h1>
+            <h1>MATT JOHNSTON</h1>
           </div>
           <div>
-            <p>co-founder & ceo, collective arts brewing</p>
+            <p>Co-founder & Ceo, Collective Arts Brewing</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Meerudha} alt="meeru dhalwala" />
           </div>
           <div>
-            <h1>meeru dhalwala</h1>
+            <h1>MEERU DHALWALA</h1>
           </div>
           <div>
-            <p>co-owner & chef, vij's restaurant</p>
+            <p>Co-owner & Chef, Vij's Restaurant</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Michellecai} alt="michelle caine" />
           </div>
           <div>
-            <h1>michelle caine</h1>
+            <h1>MICHELLE CAINE</h1>
           </div>
           <div>
-            <p>chair, hospitality management, school of hospitality, tourism and culinary arts at centennial college</p>
+            <p>Chair, Hospitality Management, School Of Hospitality, Tourism And Culinary Arts At Centennial College</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Paultay} alt="paul taylor" />
           </div>
           <div>
-            <h1>paul taylor</h1>
+            <h1>PAUL TAYLOR</h1>
           </div>
           <div>
-            <p>executive director, foodshare</p>
+            <p>Executive Director, Foodshare</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Rahilhoq} alt="rahil hoque" />
           </div>
           <div>
-            <h1>rahil hoque</h1>
+            <h1>RAHIL HOQUE</h1>
           </div>
           <div>
-            <p>partner & director of operations, ascari hospitality group</p>
+            <p>Partner & Director Of Operations, Ascari Hospitality Group</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Rennav} alt="ren navarro" />
           </div>
           <div>
-            <h1>ren navarro</h1>
+            <h1>REN NAVARRO</h1>
           </div>
           <div>
-            <p>owner & operator, beer. diversity.</p>
+            <p>Owner & Operator, Beer. Diversity.</p>
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Stephanielui} alt="stephanie lui-valentim" />
           </div>
@@ -427,7 +427,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Sylvaincha} alt="sylvain charlebois" />
           </div>
@@ -439,7 +439,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Trangtri} alt="trang trinh" />
           </div>
@@ -451,7 +451,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Vincesga} alt="vince sgabellone" />
           </div>
@@ -463,7 +463,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Yiannifou} alt="yianni fountas" />
           </div>
@@ -475,7 +475,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Tabassumzal} alt="tabassum zalotrawala" />
           </div>
@@ -487,7 +487,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Jeanfr} alt="jean-françois archambault" />
           </div>
@@ -499,7 +499,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Celestemus} alt="celeste mussio" />
           </div>
@@ -511,7 +511,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Gregbau} alt="greg baumken" />
           </div>
@@ -523,7 +523,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Vasilikimci} alt="vasiliki mcinnes" />
           </div>
@@ -535,7 +535,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Erwinjoa} alt="erwin joaquin" />
           </div>
@@ -547,7 +547,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Stephaniedon} alt="stephanie donnan" />
           </div>
@@ -559,7 +559,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Yanickmor} alt="yanick morin" />
           </div>
@@ -571,7 +571,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Colleennol} alt="colleen nolan" />
           </div>
@@ -583,7 +583,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Davidcou} alt="david coulter" />
           </div>
@@ -595,7 +595,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Patriciagha} alt="patricia ghamami" />
           </div>
@@ -607,7 +607,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Pattitho} alt="patti thompson" />
           </div>
@@ -619,7 +619,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Kimberlykuz} alt="kimberly kuzmak" />
           </div>
@@ -631,7 +631,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Karendav} alt="karen davidson" />
           </div>
@@ -643,7 +643,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Carapig} alt="cara piggot" />
           </div>
@@ -655,7 +655,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Jonathanbro} alt="jonathan brown" />
           </div>
@@ -667,7 +667,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Jayash} alt="jay ashton" />
           </div>
@@ -679,7 +679,7 @@ const Speakers = (props: Props) => {
           </div>
         </div>
 
-        <div className="secondmenucontents">
+        <div className="speakerscontents">
           <div>
             <img src={Chrisklu} alt="chris klugman" />
           </div>

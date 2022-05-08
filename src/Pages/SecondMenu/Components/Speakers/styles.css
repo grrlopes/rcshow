@@ -1,45 +1,3 @@
-.secondmenucontents_container_flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-left: 25rem;
-  margin-right: 25rem;
-  gap: 2rem;
-}
-
-.secondmenucontents {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.secondmenucontents img {
-  margin-top: 0.5rem;
-  margin-left: 1.7rem;
-  border-radius: 100%;
-  width: 6rem;
-}
-
-.secondmenucontents h1 {
-  font-size: 2em;
-  text-align: center;
-  color: black;
-}
-
-.secondmenucontents p {
-  font-size: 0.6rem;
-  font-weight: bold;
-  text-align: center;
-  color: rgb(46, 46, 46);
-}
-
-.ssecondmenucontents_flex:nth-of-type(1) {
-  flex: 9;
-}
-
-
 
 @media(width:4500px) {
 
@@ -276,32 +234,37 @@ and (orientation: portrait) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1rem;
   }
 
   .speakerscontents h1 {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
     color: black;
+    word-break: break-all;
+    width: 10rem;
   }
 
   .speakerscontents p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: bold;
     text-align: center;
     color: rgb(46, 46, 46);
+    word-break: break-all;
+    width: 10rem;
   }
 
   .speakerscontents img {
     margin-top: 0.3rem;
     margin-left: 2.5rem;
     border-radius: 100%;
-    width: 3rem;
+    width: 5rem;
   }
 
   .topheader {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
