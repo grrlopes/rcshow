@@ -262,12 +262,12 @@ and (orientation: portrait) {
     justify-content: center;
     margin-left: 0;
     margin-right: 0;
-    padding-bottom: 10.6rem;
+    padding-bottom: 0.1rem;
   }
 
   .initialmenu img {
-    height: 2rem;
-    width: 2rem;
+    height: 5rem;
+    width: 3rem;
   }
 
   .initialmenu {
@@ -307,7 +307,7 @@ and (orientation: portrait) {
   }
 
   .initialmenu h1 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: white;
   }
 
