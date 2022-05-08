@@ -1,5 +1,5 @@
 import "./styles.css"
-import Bottom from "../../Assets/bannerTop/home_v3.png"
+import Bottom from "../../Assets/bannerTop/home_v3_revised.png"
 
 interface Props {
   className: string;
