@@ -43,6 +43,82 @@
   justify-content: center;
 }
 
+
+/*iPhone 12mini, Huawei P30 Pro, 
+ * Pixel6 pro, GalaxyS22, GalaxyS22+ || 360 x 780*/
+@media only screen and (width: 360px)
+and (orientation: portrait) {
+
+  .topschedule_date_red {
+    border-bottom: solid red 0.5rem;
+  }
+
+  .featureright, .featureleft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .featureright {
+    justify-self: flex-end;
+  }
+
+  .featureleft {
+    justify-self: flex-start;
+  }
+
+  .featureright img, .featureleft img {
+    height: 2rem;
+  }
+
+  .topfeature_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topfeaturecontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.8rem;
+  }
+
+  .topfeaturecontents_header h1 {
+    font-size: 0.9rem;
+  }
+
+  .topfeature_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .topfeaturecontents_date {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .topfeature_date_red {
+    border-bottom: solid red 0.3rem;
+  }
+
+  .topfeaturecontents_date h1 {
+    font-size: 0.7rem;
+  }
+
+  .holdfeaturecontent {
+    height: 33.6vh;
+  }
+
+}
+
+
 /*iPhone 6, 6S, 7 and 8 || 375 x 667*/
 @media only screen and (width: 375px)
 and (orientation: portrait) {

@@ -48,7 +48,7 @@ and (orientation: portrait) {
   }
 
   .holdcontent {
-    height: 41.8vh;
+    height: 39vh;
     width: auto;
     overflow-y: auto;
     position:relative;

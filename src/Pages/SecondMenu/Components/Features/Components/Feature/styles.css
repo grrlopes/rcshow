@@ -1,3 +1,62 @@
+
+
+/*iPhone 12mini, Huawei P30 Pro, 
+ * Pixel6 pro, GalaxyS22, GalaxyS22+ || 360 x 780*/
+@media only screen and (width: 360px)
+and (orientation: portrait) {
+
+  .featuremenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .featuremenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 5.5rem;
+    width: 10rem;
+  }
+
+  .featuremenucontents h1 {
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+
+  #feature_1,
+  #feature_2,
+  #feature_3,
+  #feature_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #feature_1 {
+    background-image: url("../../../../../../Assets/feature/features/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+  }
+  #feature_2 {
+    background-image: url("../../../../../../Assets/feature/features/39818312725_d56781b864_c.jpg");
+  }
+  #feature_3 {
+    background-image: url("../../../../../../Assets/feature/features/OFF-SITE-DINNER.jpg");
+  }
+  #feature_4 {
+    background-image: url("../../../../../../Assets/feature/features/save-energy-forum-nt.png");
+  }
+
+}
+
+
 /*iPhone 6, 6S, 7 and 8 || 375 x 667*/
 @media only screen and (width: 375px)
 and (orientation: portrait) {
@@ -29,14 +88,26 @@ and (orientation: portrait) {
     font-weight: bold;
   }
 
-  #feature_1 {
+  #feature_1,
+  #feature_2,
+  #feature_3,
+  #feature_4 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   #feature_1 {
-    background-image: url("../../../../../../Assets/events/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+    background-image: url("../../../../../../Assets/feature/features/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+  }
+  #feature_2 {
+    background-image: url("../../../../../../Assets/feature/features/39818312725_d56781b864_c.jpg");
+  }
+  #feature_3 {
+    background-image: url("../../../../../../Assets/feature/features/OFF-SITE-DINNER.jpg");
+  }
+  #feature_4 {
+    background-image: url("../../../../../../Assets/feature/features/save-energy-forum-nt.png");
   }
 
 }
@@ -72,15 +143,28 @@ and (orientation: portrait) {
     font-weight: bold;
   }
 
-  #feature_1 {
+  #feature_1,
+  #feature_2,
+  #feature_3,
+  #feature_4 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   #feature_1 {
-    background-image: url("../../../../../../Assets/events/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+    background-image: url("../../../../../../Assets/feature/features/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
   }
+  #feature_2 {
+    background-image: url("../../../../../../Assets/feature/features/39818312725_d56781b864_c.jpg");
+  }
+  #feature_3 {
+    background-image: url("../../../../../../Assets/feature/features/OFF-SITE-DINNER.jpg");
+  }
+  #feature_4 {
+    background-image: url("../../../../../../Assets/feature/features/save-energy-forum-nt.png");
+  }
+
 
 }
 
@@ -115,14 +199,26 @@ and (orientation: portrait) {
     font-weight: bold;
   }
 
-  #feature_1 {
+  #feature_1,
+  #feature_2,
+  #feature_3,
+  #feature_4 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   #feature_1 {
-    background-image: url("../../../../../../Assets/events/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+    background-image: url("../../../../../../Assets/feature/features/c25ff1c0-f10d-11e9-8ee1-a0369f10330e.jpg");
+  }
+  #feature_2 {
+    background-image: url("../../../../../../Assets/feature/features/39818312725_d56781b864_c.jpg");
+  }
+  #feature_3 {
+    background-image: url("../../../../../../Assets/feature/features/OFF-SITE-DINNER.jpg");
+  }
+  #feature_4 {
+    background-image: url("../../../../../../Assets/feature/features/save-energy-forum-nt.png");
   }
 
 }

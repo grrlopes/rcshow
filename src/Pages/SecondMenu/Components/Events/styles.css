@@ -148,6 +148,147 @@
 }
 
 
+/*iPhone 12mini, Huawei P30 Pro, 
+ * Pixel6 pro, GalaxyS22, GalaxyS22+ || 360 x 780*/
+@media only screen and (width: 360px)
+and (orientation: portrait) {
+
+  .eventsmenucontents_container_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .eventsmenucontents {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    border-radius: 8%;
+    height: 6rem;
+    width: 9rem;
+  }
+
+  .eventsmenucontents h1, .eventsmenucontents p {
+    color: white;
+    font-size: 0.9rem;
+  }
+
+  .eventModal {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .eventModal section  {
+    height: 87.5vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+  .eventModal img {
+    background-repeat: no-repeat;
+    height: auto;
+    width: 21rem;
+    opacity: 0.9;
+  }
+
+  .eventModal_btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .eventModal_btn button {
+    padding: 0.2rem 0.7rem;
+    border: 0.2rem solid red;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  #events_1,
+  #events_2,
+  #events_3,
+  #events_4 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.9;
+  }
+
+  #events_1 {
+    background-image: url("../../../../Assets/events/RCLeadership_10b.jpg");
+  }
+
+  #events_2 {
+    background-image: url("../../../../Assets/events/39818312725_d56781b864_c.jpg");
+  }
+
+  #events_3 {
+    background-image: url("../../../../Assets/events/38901354390_fc65786d99_h.jpg");
+    background-size: 100% 100%;
+  }
+
+  #events_4 {
+    background-image: url("../../../../Assets/events/michael-discenza-199756.jpg");
+  }
+
+
+  .topevents_container_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .topeventscontents_header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topeventscontents_header h1 {
+    font-size: 1rem;
+  }
+
+  .topeventscontents_header h2 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: darkgrey;
+  }
+
+  .topevents_red {
+    border-bottom: solid red 0.2rem;
+    text-align: center;
+    line-break: normal;
+  }
+
+  .hholdeventscontent {
+    height: 135vh;
+    width: auto;
+    overflow-y:auto;
+    float:left;
+    position:relative;
+  }
+
+}
+
 
 /*iPhone 6, 6S, 7 and 8 || 375 x 667*/
 @media only screen and (width: 375px)
