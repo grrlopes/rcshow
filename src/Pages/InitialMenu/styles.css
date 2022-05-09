@@ -196,13 +196,13 @@ and (orientation: portrait) {
     justify-content: center;
     margin-left: 0;
     margin-right: 0;
-    padding-bottom: 6.3rem;
+    padding-bottom: 0.3rem;
 
   }
 
   .initialmenu img {
-    height: 2rem;
-    width: 2rem;
+    height: 4rem;
+    width: 3rem;
   }
 
   .initialmenu {
