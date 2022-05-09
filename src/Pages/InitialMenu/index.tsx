@@ -33,7 +33,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
             <img src={Speakers} />
           </div>
           <div>
-            <h1>speakers</h1>
+            <h1>SPEAKERS</h1>
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
             <img src={Schedules} />
           </div>
           <div>
-            <h1>schedule</h1>
+            <h1>SCHEDULE</h1>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
             <img src={Exhibitors} />
           </div>
           <div>
-            <h1>exhibitors</h1>
+            <h1>EXHIBITORS</h1>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
             <img src={Features} />
           </div>
           <div>
-            <h1>features</h1>
+            <h1>FEATURES</h1>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
             <img src={Competitors} />
           </div>
           <div>
-            <h1>competitions</h1>
+            <h1>COMPETITIONS</h1>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ const InitialMenu: FC<Props> = (props: Props) => {
             <img src={Events} />
           </div>
           <div>
-            <h1>events</h1>
+            <h1>EVENTS</h1>
           </div>
         </div>
       </div>

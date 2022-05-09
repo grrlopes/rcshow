@@ -14,6 +14,10 @@ import Eleven from "../../Assets/sponsors_v2/eleven.jpg";
 import Twelve from "../../Assets/sponsors_v2/twelve.jpg";
 import Thirteen from "../../Assets/sponsors_v2/thirteen.jpg";
 
+//import Fourteen from "../../Assets/sponsors_v2/Spin To Win_Mobile_Banner v1.jpg";
+//import Fiftheen from "../../Assets/sponsors_v2/SPK_Mobile_Banner v1.jpg";
+//import Sixtheen from "../../Assets/sponsors_v2/SPK_Mobile_Banner v2.jpg";
+
 import { Carousel } from "react-responsive-carousel";
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
