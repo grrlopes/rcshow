@@ -1,34 +1,36 @@
 
-@media(width:4500px) {
-
-  .secondmenucontents_container_flex {
+/*iPhone 12mini, Huawei P30 Pro, 
+ * Pixel6 pro, GalaxyS22, GalaxyS22+ || 360 x 780*/
+@media only screen and (width: 360px)
+and (orientation: portrait) {
+  .speakerscontents_container_flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    gap: 2rem;
+    gap: 1px;
   }
 
-  .secondmenucontents h1 {
-    font-size: 3em;
+  .speakerscontents h1 {
+    font-size: 0.6rem;
     text-align: center;
     color: black;
+    width: 7rem;
   }
 
-  .secondmenucontents p {
-    font-size: 2rem;
+  .speakerscontents p {
+    font-size: 0.6rem;
     font-weight: bold;
     text-align: center;
     color: rgb(46, 46, 46);
+    width: 7rem;
   }
 
-  .secondmenucontents img {
-    margin-top: 1rem;
-    margin-left: 8rem;
+  .speakerscontents img {
+    margin-top: 0.3rem;
+    margin-left: 2.5rem;
     border-radius: 100%;
-    width: 10rem;
+    width: 3rem;
   }
 
   .topheader {
@@ -38,22 +40,22 @@
   }
 
   .topheader div {
-    border-bottom: solid red 0.5rem;
+    border-bottom: solid red 0.3rem;
   }
 
   .topheader h1 {
-    font-size: 3rem;
+    font-size: 1rem;
   }
 
   .holdcontent {
-    height: 160vh;
+    height: 41.8vh;
     width: auto;
-    overflow-y:auto;
-    float:left;
+    overflow-y: auto;
     position:relative;
   }
 
 }
+
 
 
 
@@ -66,20 +68,22 @@ and (orientation: portrait) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1px;
   }
 
   .speakerscontents h1 {
-    font-size: 1rem;
+    font-size: 0.6rem;
     text-align: center;
     color: black;
+    width: 7rem;
   }
 
   .speakerscontents p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: bold;
     text-align: center;
     color: rgb(46, 46, 46);
+    width: 7rem;
   }
 
   .speakerscontents img {
@@ -122,20 +126,22 @@ and (orientation: portrait) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1px;
   }
 
   .speakerscontents h1 {
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: center;
     color: black;
+    width: 8rem;
   }
 
   .speakerscontents p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     font-weight: bold;
     text-align: center;
     color: rgb(46, 46, 46);
+    width: 7rem;
   }
 
   .speakerscontents img {
@@ -178,20 +184,24 @@ and (orientation: portrait) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 1px;
   }
 
   .speakerscontents h1 {
-    font-size: 1rem;
+    font-size: 0.6rem;
     text-align: center;
     color: black;
+    word-break: break-all;
+    width: 9rem;
   }
 
   .speakerscontents p {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
     font-weight: bold;
     text-align: center;
     color: rgb(46, 46, 46);
+    word-break: break-all;
+    width: 8.5rem;
   }
 
   .speakerscontents img {

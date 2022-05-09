@@ -14,6 +14,23 @@
   text-align: center;
 }
 
+/*iPhone 12mini, Huawei P30 Pro, 
+ * Pixel6 pro, GalaxyS22, GalaxyS22+ || 360 x 780*/
+@media only screen and (width: 360px)
+and (orientation: portrait) {
+
+  .videoclip_container_flex video {
+    height: 8rem;
+    width: 22.5rem;
+  }
+
+  .video_clip h1 {
+    text-align: center;
+  }
+
+}
+
+
 /*iPhone 6, 6S, 7 and 8 || 375 x 667*/
 @media only screen and (width: 375px)
 and (orientation: portrait) {

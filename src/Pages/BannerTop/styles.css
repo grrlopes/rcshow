@@ -21,24 +21,30 @@
   object-position: 0% 0%;
 }
 
-@media(width:45000px) {
-  .banner_container_flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
 
- .banner_btn_back {
-    font-size: 2.5rem;
+
+/*iPhone 12mini, Huawei P30 Pro, 
+ * Pixel6 pro, GalaxyS22, GalaxyS22+ || 360 x 780*/
+@media only screen and (width: 360px)
+and (orientation: portrait) {
+  .banner_btn_back {
+    font-size: 1rem;
     font-weight: bold;
     position: absolute;
-    top: .3em;
-    left: 59rem;
+    top: .3px;
+    left: 19rem;
     color: white;
   }
 
+  .banner_flex_item img {
+    height: 8.1rem;
+    width: 22.5rem;
+    object-fit: cover;
+    object-position: 0% 0%;
+  }
+
 }
+
 
 /*iPhone 6, 6S, 7 and 8 || 375 x 667*/
 @media only screen and (width: 375px)
