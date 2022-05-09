@@ -420,10 +420,10 @@ const Speakers = (props: Props) => {
             <img src={Stephanielui} alt="stephanie lui-valentim" />
           </div>
           <div>
-            <h1>stephanie lui-valentim</h1>
+            <h1>STEPHANIE LUI-VALENTIM</h1>
           </div>
           <div>
-            <p>co-founder, quell now inc.</p>
+            <p>Co-Founder, Quell Now Inc.</p>
           </div>
         </div>
 
@@ -432,10 +432,10 @@ const Speakers = (props: Props) => {
             <img src={Sylvaincha} alt="sylvain charlebois" />
           </div>
           <div>
-            <h1>sylvain charlebois</h1>
+            <h1>SYLVAIN CHARLEBOIS</h1>
           </div>
           <div>
-            <p>scientific director, agri-food analytics lab, dalhousie university</p>
+            <p>Scientific Director, Agri-Food Analytics Lab, Dalhousie University</p>
           </div>
         </div>
 
@@ -444,10 +444,10 @@ const Speakers = (props: Props) => {
             <img src={Trangtri} alt="trang trinh" />
           </div>
           <div>
-            <h1>trang trinh</h1>
+            <h1>TRANG TRINH</h1>
           </div>
           <div>
-            <p>ceo, trec brands</p>
+            <p>Ceo, Trec Brands</p>
           </div>
         </div>
 
@@ -456,10 +456,10 @@ const Speakers = (props: Props) => {
             <img src={Vincesga} alt="vince sgabellone" />
           </div>
           <div>
-            <h1>vince sgabellone</h1>
+            <h1>VINCE SGABELLONE</h1>
           </div>
           <div>
-            <p>industry analyst, canada foodservice, npd group</p>
+            <p>Industry Analyst, Canada Foodservice, Npd Group</p>
           </div>
         </div>
 
@@ -468,10 +468,10 @@ const Speakers = (props: Props) => {
             <img src={Yiannifou} alt="yianni fountas" />
           </div>
           <div>
-            <h1>yianni fountas</h1>
+            <h1>YIANNI FOUNTAS</h1>
           </div>
           <div>
-            <p>senior director, emerging brands & partnerships, strategic projects & business insights, recipe unlimited</p>
+            <p>Senior Director, Emerging Brands & Partnerships, Strategic Projects & Business Insights, Recipe Unlimited</p>
           </div>
         </div>
 
@@ -480,10 +480,10 @@ const Speakers = (props: Props) => {
             <img src={Tabassumzal} alt="tabassum zalotrawala" />
           </div>
           <div>
-            <h1>tabassum zalotrawala</h1>
+            <h1>TABASSUM ZALOTRAWALA</h1>
           </div>
           <div>
-            <p>chief development officer, chipotle mexican grill</p>
+            <p>Chief Development Officer, Chipotle Mexican Grill</p>
           </div>
         </div>
 
@@ -492,10 +492,10 @@ const Speakers = (props: Props) => {
             <img src={Jeanfr} alt="jean-françois archambault" />
           </div>
           <div>
-            <h1>jean-françois archambault</h1>
+            <h1>JEAN-FRANÇOIS ARCHAMBAULT</h1>
           </div>
           <div>
-            <p>general director & founder, la tablée des chefs</p>
+            <p>General Director & Founder, La Tablée Des Chefs</p>
           </div>
         </div>
 
@@ -504,10 +504,10 @@ const Speakers = (props: Props) => {
             <img src={Celestemus} alt="celeste mussio" />
           </div>
           <div>
-            <h1>celeste mussio</h1>
+            <h1>CELESTE MUSSIO</h1>
           </div>
           <div>
-            <p>head of sales, data and adtech, pelmorex corp.</p>
+            <p>Head Of Sales, Data And Adtech, Pelmorex Corp.</p>
           </div>
         </div>
 
@@ -516,10 +516,10 @@ const Speakers = (props: Props) => {
             <img src={Gregbau} alt="greg baumken" />
           </div>
           <div>
-            <h1>greg baumken</h1>
+            <h1>GREG BAUMKEN</h1>
           </div>
           <div>
-            <p>vice president, vibrant marketing</p>
+            <p>Vice President, Vibrant Marketing</p>
           </div>
         </div>
 
@@ -528,10 +528,10 @@ const Speakers = (props: Props) => {
             <img src={Vasilikimci} alt="vasiliki mcinnes" />
           </div>
           <div>
-            <h1>vasiliki mcinnes</h1>
+            <h1>VASILIKI MCINNES</h1>
           </div>
           <div>
-            <p>co-founder & chief operating officer, odd burger</p>
+            <p>Co-Founder & Chief Operating Officer, Odd Burger</p>
           </div>
         </div>
 
@@ -540,10 +540,10 @@ const Speakers = (props: Props) => {
             <img src={Erwinjoa} alt="erwin joaquin" />
           </div>
           <div>
-            <h1>erwin joaquin</h1>
+            <h1>ERWIN JOAQUIN</h1>
           </div>
           <div>
-            <p>industry lead, dining/qsr, tiktok</p>
+            <p>Industry Lead, Dining/qsr, Tiktok</p>
           </div>
         </div>
 
@@ -552,10 +552,10 @@ const Speakers = (props: Props) => {
             <img src={Stephaniedon} alt="stephanie donnan" />
           </div>
           <div>
-            <h1>stephanie donnan</h1>
+            <h1>STEPHANIE DONNAN</h1>
           </div>
           <div>
-            <p>city manager, uber eats</p>
+            <p>City Manager, Uber Eats</p>
           </div>
         </div>
 
@@ -564,10 +564,10 @@ const Speakers = (props: Props) => {
             <img src={Yanickmor} alt="yanick morin" />
           </div>
           <div>
-            <h1>yanick morin</h1>
+            <h1>YANICK MORIN</h1>
           </div>
           <div>
-            <p>general manager, a&w</p>
+            <p>General Manager, A&w</p>
           </div>
         </div>
 
@@ -576,10 +576,10 @@ const Speakers = (props: Props) => {
             <img src={Colleennol} alt="colleen nolan" />
           </div>
           <div>
-            <h1>colleen nolan</h1>
+            <h1>COLLEEN NOLAN</h1>
           </div>
           <div>
-            <p>hr development, training & community engagement specialist, indigenous tourism ontario</p>
+            <p>Hr Development, Training & Community Engagement Specialist, Indigenous Tourism Ontario</p>
           </div>
         </div>
 
@@ -588,10 +588,10 @@ const Speakers = (props: Props) => {
             <img src={Davidcou} alt="david coulter" />
           </div>
           <div>
-            <h1>david coulter</h1>
+            <h1>DAVID COULTER</h1>
           </div>
           <div>
-            <p>director of corporate sales, diversey canada</p>
+            <p>Director Of Corporate Sales, Diversey Canada</p>
           </div>
         </div>
 
@@ -600,10 +600,10 @@ const Speakers = (props: Props) => {
             <img src={Patriciagha} alt="patricia ghamami" />
           </div>
           <div>
-            <h1>patricia ghamami</h1>
+            <h1>PATRICIA GHAMAMI</h1>
           </div>
           <div>
-            <p>general manager, drake devonshire</p>
+            <p>General Manager, Drake Devonshire</p>
           </div>
         </div>
 
@@ -612,10 +612,10 @@ const Speakers = (props: Props) => {
             <img src={Pattitho} alt="patti thompson" />
           </div>
           <div>
-            <h1>patti thompson</h1>
+            <h1>PATTI THOMPSON</h1>
           </div>
           <div>
-            <p>vp, sales and marketing, king cole ducks ltd</p>
+            <p>Vp, Sales And Marketing, King Cole Ducks Ltd</p>
           </div>
         </div>
 
@@ -624,10 +624,10 @@ const Speakers = (props: Props) => {
             <img src={Kimberlykuz} alt="kimberly kuzmak" />
           </div>
           <div>
-            <h1>kimberly kuzmak</h1>
+            <h1>KIMBERLY KUZMAK</h1>
           </div>
           <div>
-            <p>vp client management, global merchant services, american express</p>
+            <p>Vp Client Management, Global Merchant Services, American Express</p>
           </div>
         </div>
 
@@ -636,10 +636,10 @@ const Speakers = (props: Props) => {
             <img src={Karendav} alt="karen davidson" />
           </div>
           <div>
-            <h1>karen davidson</h1>
+            <h1>KAREN DAVIDSON</h1>
           </div>
           <div>
-            <p>general manager, marben & the cloak bar</p>
+            <p>General Manager, Marben & The Cloak Bar</p>
           </div>
         </div>
 
@@ -648,10 +648,10 @@ const Speakers = (props: Props) => {
             <img src={Carapig} alt="cara piggot" />
           </div>
           <div>
-            <h1>cara piggot</h1>
+            <h1>CARA PIGGOT</h1>
           </div>
           <div>
-            <p>senior vice president, operations and food services, boston pizza</p>
+            <p>Senior Vice President, Operations And Food Services, Boston Pizza</p>
           </div>
         </div>
 
@@ -660,10 +660,10 @@ const Speakers = (props: Props) => {
             <img src={Jonathanbro} alt="jonathan brown" />
           </div>
           <div>
-            <h1>jonathan brown</h1>
+            <h1>JONATHAN BROWN</h1>
           </div>
           <div>
-            <p>chief sales officer, trend hunter</p>
+            <p>Chief Sales Officer, Trend Hunter</p>
           </div>
         </div>
 
@@ -672,10 +672,10 @@ const Speakers = (props: Props) => {
             <img src={Jayash} alt="jay ashton" />
           </div>
           <div>
-            <h1>jay ashton</h1>
+            <h1>JAY ASHTON</h1>
           </div>
           <div>
-            <p>business resources & brand activation manager, sysco</p>
+            <p>Business Resources & Brand Activation Manager, Sysco</p>
           </div>
         </div>
 
@@ -684,10 +684,10 @@ const Speakers = (props: Props) => {
             <img src={Chrisklu} alt="chris klugman" />
           </div>
           <div>
-            <h1>chris klugman</h1>
+            <h1>CHRIS KLUGMAN</h1>
           </div>
           <div>
-            <p>president & owner, paintbox catering and bistro</p>
+            <p>President & Owner, Paintbox Catering And Bistro</p>
           </div>
         </div>
 
