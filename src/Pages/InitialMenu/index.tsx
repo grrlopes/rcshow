@@ -48,12 +48,12 @@ const InitialMenu: FC<Props> = (props: Props) => {
         </div>
       </div>
       <div className="initialmenu_flex initialmenu_exhibitors_flex">
-        <div className="initialmenu">
+        <div className="initialmenu" onClick={() => menu("contest")}>
           <div className="icon">
             <img src={Exhibitors} />
           </div>
           <div>
-            <h1>EXHIBITORS</h1>
+            <h1>CONTEST</h1>
           </div>
         </div>
       </div>

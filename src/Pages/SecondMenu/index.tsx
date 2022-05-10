@@ -50,12 +50,12 @@ const SecondMenu: FC<Props> = (props: Props) => {
         </div>
       </div>
       <div className="secondmenu_flex secondmenu_exhibitors_flex">
-        <div className="secondmenu">
+        <div className={`${props.menuChosen === "contest" ? "secondmenu_red icon_beat" : "secondmenu"}`} onClick={() => menu("contest")}>
           <div className="icon">
             <img src={Exhibitors} />
           </div>
           <div>
-            <h1>EXHIBITORS</h1>
+            <h1>CONTEST</h1>
           </div>
         </div>
       </div>
