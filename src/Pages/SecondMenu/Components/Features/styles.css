@@ -343,7 +343,7 @@ and (orientation: portrait) {
   }
 
   .featureright img, .featureleft img {
-    height: 2rem;
+    height: 3rem;
   }
 
   .topfeature_container_flex {

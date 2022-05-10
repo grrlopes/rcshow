@@ -183,8 +183,8 @@ and (orientation: portrait) {
     text-align: center;
 
     border-radius: 8%;
-    height: 6.5rem;
-    width: 9rem;
+    height: 9rem;
+    width: 10rem;
   }
 
   .pavilionmenucontents h1 {
@@ -262,8 +262,8 @@ and (orientation: portrait) {
     text-align: center;
 
     border-radius: 8%;
-    height: 6.5rem;
-    width: 9rem;
+    height: 7.5rem;
+    width: 10rem;
   }
 
   .pavilionmenucontents h1 {

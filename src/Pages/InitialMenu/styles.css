@@ -1,52 +1,4 @@
 
-@media(width:4511px) {
-
-  .initialmenu_container_flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-
-  .initialmenu_flex:nth-of-type(1) {
-    flex: 45rem;
-  }
-
-  .initialmenu_flex:nth-of-type(2) {
-    flex: 45rem;
-  }
-
-  .initialmenu_flex:nth-of-type(3) {
-    flex: 45rem;
-  }
-
-  .initialmenu_flex:nth-of-type(4) {
-    flex: 45rem;
-  }
-
-  .initialmenu_flex:nth-of-type(5) {
-    flex: 45rem;
-  }
-
-  .initialmenu_flex:nth-of-type(6) {
-    flex: 45rem;
-  }
-
-  .initialmenu img {
-    margin: 0;
-  }
-
-  .initialmenu h1 {
-    font-size: 2.5rem;
-    color: white;
-  }
-
-}
 
 /*iPhone 12mini, Huawei P30 Pro, 
  * Pixel6 pro, GalaxyS22, GalaxyS22+ || 360 x 780*/
@@ -196,13 +148,12 @@ and (orientation: portrait) {
     justify-content: center;
     margin-left: 0;
     margin-right: 0;
-    padding-bottom: 13.2rem;
-
+    padding-bottom: 0.6rem;
   }
 
   .initialmenu img {
-    height: 2rem;
-    width: 2rem;
+    height: 4.5rem;
+    width: 5rem;
   }
 
   .initialmenu {
@@ -214,27 +165,27 @@ and (orientation: portrait) {
   }
 
   .initialmenu_flex:nth-of-type(1) {
-    flex: 8rem;
+    flex: 9rem;
   }
 
   .initialmenu_flex:nth-of-type(2) {
-    flex: 8rem;
+    flex: 9rem;
   }
 
   .initialmenu_flex:nth-of-type(3) {
-    flex: 8rem;
+    flex: 9rem;
   }
 
   .initialmenu_flex:nth-of-type(4) {
-    flex: 8rem;
+    flex: 9rem;
   }
 
   .initialmenu_flex:nth-of-type(5) {
-    flex: 8rem;
+    flex: 9rem;
   }
 
   .initialmenu_flex:nth-of-type(6) {
-    flex: 8rem;
+    flex: 9rem;
   }
 
   .initialmenu img {
@@ -242,7 +193,7 @@ and (orientation: portrait) {
   }
 
   .initialmenu h1 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: white;
   }
 
