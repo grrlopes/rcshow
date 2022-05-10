@@ -155,8 +155,6 @@ and (orientation: portrait) {
 }
 
 
-
-
 /*iPhone 6, 6S, 7 and 8 || 375 x 667*/
 @media only screen and (width: 375px)
 and (orientation: portrait) {
@@ -178,8 +176,8 @@ and (orientation: portrait) {
     text-align: center;
 
     border-radius: 8%;
-    height: 7rem;
-    width: 7rem;
+    height: 7.5rem;
+    width: 9rem;
   }
 
   .competitorsmenucontents h1 {
@@ -208,7 +206,7 @@ and (orientation: portrait) {
     justify-self: flex-start;
   }
   .competitorsright img, .competitorsleft img {
-    height: 2rem;
+    height: 3rem;
   }
 
   #competitors_1,
